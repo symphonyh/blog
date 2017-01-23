@@ -5,7 +5,7 @@ title:               Cloudhan.
 tagline:             'Hope is a good thing and maybe the best of things.'
 description:         '倘若可以简单的生活: 一抹油彩 半阙诗词 一段代码, 能让周围的世界微起波澜, 就是满意了.'
 url:                 'www.cloudhan.me'
-baseurl:             '/blog'
+baseurl:             '/'
 
 # About/contact
 author:
