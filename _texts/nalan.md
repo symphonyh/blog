@@ -17,7 +17,7 @@ toc:
 
 ---
 
-<a class="citation">{{ page.author }} </a> (清)[^fn1] 
+<a class="citation">{{ page.author }} </a> [<small>清</small>][^fn1] 
 
 ### <a>百字令·废园有感 </a>
 

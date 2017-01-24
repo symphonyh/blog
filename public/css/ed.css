@@ -232,7 +232,7 @@ blockquote p:last-child {
 img {
   display: block;
   max-width: 100%;
-  margin: 0 0 1rem;
+  margin: 1rem 3.5rem 1rem;
   border-radius: 5px;
 }
 
@@ -305,7 +305,7 @@ tbody tr:nth-child(odd) th {
 
 .masthead-title small {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 1rem;
+  font-size: 0.6rem;
   font-weight: 400;
   color: #c0c0c0;
   letter-spacing: 0;
@@ -418,6 +418,7 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .sidebar-item {
     padding: 1.5rem;
+    font-size: 0.65rem;
   }
   .sidebar-nav-item {
     padding-left:  1.5rem;
