@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Bella和我
+title: About
 ---
-<br>
 <br>
 <br>
 <img src="/assets/hxy.jpg" alt="bella-and-me" width="400" height="600">
