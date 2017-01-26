@@ -32,13 +32,13 @@ body {
 
 html {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
 @media (min-width: 38em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -325,6 +325,12 @@ h3.masthead-title {
   .masthead-title small {
     display: none;
   }
+  img {
+  display: block;
+  max-width: 100%;
+  margin: 1rem 0 1rem;
+  border-radius: 5px;
+}
 }
 
 /* Page and Posts */
