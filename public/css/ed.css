@@ -317,7 +317,7 @@ h3.masthead-title {
 	margin-top: 2px;
 }
 
-
+/* iohone6 plus style*/
 @media (max-width: 48em) {
   .masthead-title {
     text-align: center;
@@ -331,6 +331,10 @@ h3.masthead-title {
   margin: 1rem 0 1rem;
   border-radius: 5px;
 }
+
+ #cloud-tie-wrapper{
+  margin: 3rem 0 0 0;
+
 }
 
 /* Page and Posts */
