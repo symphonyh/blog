@@ -332,15 +332,10 @@ h3.masthead-title {
   border-radius: 5px;
 }
 
- #cloud-tie-wrapper{
-  margin: 3rem 0 0 0;
+ #cloud-tie-wrapper {
+   display: none;
 }
 
-
-@media (max-width: 40em) {
-  #cloud-tie-wrapper{
-   display: block;}
-   } 
 
 }
 /* Page and Posts */
