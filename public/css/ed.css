@@ -688,6 +688,11 @@ a.sidebar-nav-item:focus {
 /*                    */
 /* ED SPECIAL LAYOUTS */
 /*                    */
+/*p 标签 第一个是中文自动对齐，第二个英文自动对齐。*/
+p, small {
+  text-align: justify;
+  word-break: break-all;
+}
 
 p.centered {
   text-align: center;
@@ -828,11 +833,6 @@ ol.bibliography {
 	text-indent: -1rem;
 }
 
-/* wangyi gentie style */
-#cloud-tie-wrapper{
-  margin: 5rem -5rem 0 -5rem
-
-}
 
 .about {
 margin: 0 0 0 200px;
