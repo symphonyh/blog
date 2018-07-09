@@ -42,6 +42,7 @@ html {
    	
   }
 
+
 @media (min-width: 38em) {
   html {
     font-size: 16px;
@@ -111,7 +112,10 @@ a strong {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration: underline; 
+  /*  text-decoration:none;
+  background-color: #FF6A6A */
+
 }
 
 /* Headings */
@@ -311,7 +315,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .masthead-title small {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: Helvetica, Tahoma, Arial, "YaHei Consolas Hybrid", "Microsoft YaHei", "微软雅黑",  sans-serif;
   font-size: 0.75rem;
   font-weight: 400;
   color: #c0c0c0;
@@ -390,7 +394,7 @@ h3.masthead-title {
 }
 @media (min-width: 30em) {
   .sidebar {
-    font-size: .75rem; /* 14px */
+    font-size: .95rem; /* 14px */
   }
 }
 
@@ -436,7 +440,7 @@ a.sidebar-nav-item:focus {
 @media (min-width: 48em) {
   .sidebar-item {
     padding: 1.5rem;
-    font-size: 0.65rem;
+    font-size: 0.75rem;
   }
   .sidebar-nav-item {
     padding-left:  1.5rem;
