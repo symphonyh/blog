@@ -1,4 +1,4 @@
-/* Ed: the minimal edition theme.
+container content/* Ed: the minimal edition theme.
  * ___________________   
  * \_   _____/\______ \  
  *  |    __)_  |    |  \ 
@@ -845,6 +845,3 @@ ol.bibliography {
 }
 
 
-.about {
-margin: 0 0 0 200px;
-}
