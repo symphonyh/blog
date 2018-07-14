@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Documentation
-author: Alex Gil
+title: 如何写文档
+author: Cloudhan
 ---
 
-## Contents
+## 目录
 {:.no_toc}
 
 * ToC
@@ -12,150 +12,62 @@ author: Alex Gil
 
 ---
 
-## Prerequisites
-
-This documentation was built with beginners in mind, but has the necessary information for more seasoned producers.
-
-To install and use Ed you will be using your terminal. If you need a refresher, I highly recommend "[The Command Line Crash Course](http://cli.learncodethehardway.org/book/)." Working knowledge of HTML and CSS is also taken for granted. If you're new to HTML and CSS, you may want to check out the relevant courses on [codecademy.com](https://www.codecademy.com/learn/web).
-
-Jekyll does not run very well on Windows machines for now. If you are using Windows, this theme won't work for you, but we hope that you simply deploy our principles, and parts of our stylesheet, on a system like [Hugo](https://gohugo.io/), which does work on Windows.
-
----
-
-## Installing Ed: Easy
-
-The easy way to do this is not necessarily the more robust, and may simply not work on your system. The easy way could also be called the 'lucky' way. It will work if your system is ready for Ed. Two major caveats to keep in mind if you go the easy route: a) You may run into problems later when some Ed components need updating; and, b) You may run into conflicts if you run several Ruby environments for different projects. That said, if you just want to quickly try Ed, and you don't run into problems installing, this is perhaps the best approach.
 
 
-If you're using a Mac, make sure you have the appropriate version of [XCode command line tools](https://developer.apple.com/xcode/download/) for your OSX. Using the terminal's `cd` command, switch to the directory where you want to install your project. Once inside the folder, you are ready to download and start using Ed. Enter each of these lines into your terminal (remember to ignore the `$`):
+## 基础使用
 
+这是一个`Jekyll`的主题，它很简洁、很漂亮，适合撰写文章。你可以撰写自己的短文、诗歌、甚至小说、自传来发布，我一直有个写作的梦想，之所以喜欢这个主题，大致源于此吧！这里还是得感谢下`Ed`主题的发布者 `Alex Gil` 及其团队给了我们很好的体验。<br>
+要想很好的使用`Ed`，除了熟悉基础的`markdown`语法，还需要会使用`git`,`rvm`, `bundle`, `jekyll 2.7.3`的基础指令和`Liquid`的语法知识。<br>
+`Ed`的运行环境是`ubuntu`，相比`windows`环境运行更加稳定;所以手册里看到的终端命令和相关工具都是在`ubuntu 16.04 LTS`的环境中运行的。
+
+
+如果你迫不及待已经想撰写Blog了，打开`blog`文件夹，右键选择`在终端打开`，或者`Ctrl+Alt+T` 打开终端：
 ~~~ bash
-$ git clone https://github.com/elotroalex/ed.git
-$ cd ed
-$ gem install bundler
-$ bundle install
+$ cd blog
+$ rvm use 2.4.1@jekyll
+$ subl .
 ~~~
-
-That's it. To see if Ed is working properly we will take advantage of Jekyll's built in server. You can build the first version of your site and run the jekyll server at the same time by entering:
-
+写好Blog先要在本地启动`Jekyll`服务预览下，确保没有错误发生，本地`Firefox`浏览器地址为`127.0.0.1:4000`
 ~~~ bash
 $ jekyll serve
 ~~~
+发布到`Github`的服务器,需要注意的是：blog使用了`cloudhan.me`的域名，没有使用账户名（事实上账户名网站是我的技术blog），这是个项目网站，所以这里不是master分支：
 
-If at any point during this process you had an error you could not resolve, move on to the next section. If the site was rendered fine, copy the url from your terminal log and paste it into your browser of choice (I recommend Firefox). This url usually looks something like this `http://127.0.0.1:4000/ed`. At this point you should be looking at your very own working version of Ed:
-
-![Your very own Ed]({{ site.baseurl }}/assets/screenshot-home.png)
+~~~ bash
+$ git status
+$ git add .
+$ git commit -m "first commit"
+$ git push origin gh-pages
+~~~
 
 ---
 
-## Installing Ed: Robust
+## 文章格式及命名规范
 
-The first step to install Ed is to download the source files from GitHub. To do so you must have git installed on your computer. You probably have git already, but if you don't, the easiest way is probably to install [Github Desktop](https://desktop.github.com/) (even though we will be using git and github from the terminal in this tutorial). Mac users may want to ensure they have [Xcode](https://developer.apple.com/xcode/) and its command line tools installed as well. To check if git is running on your system enter the following line on your terminal (remember to ignore the $):
+对于`Jekyll`的文档可以参考 [Jekyll中文网](http://jekyllrb.com.cn/) 或者`安道`的教程。我使用的纯文本编辑工具是`sublime-text3`，我确保它是个神奇的工具，非常方便好用。
 
-~~~ bash
-$ git --version
-~~~
-
-If you don't get an error, you're good to go. Using the `cd` command on your terminal, navigate to the folder where you keep your web projects. Once you're in the folder where you want Ed to live, download it from github using the following line (remember you can copy and paste):
-
-~~~ bash
-$ git clone https://github.com/elotroalex/ed.git
-~~~
-
-At this point you should navigate inside your Ed project folder and stay there until further notice:
-
-~~~ bash
-$ cd ed
-~~~
-
-Jekyll is a Ruby gem (Ruby's name for software packages). The best way to ensure you have the right environment is to use Ruby Version Manager, or [rvm](https://rvm.io/), and the latest stable version of Ruby. To install rvm *and* a recent version of Ruby at the same time, follow the instructions on rvm's site. Remember to add `--ruby=2.3.0` at the end of the `curl` command to install ruby at the same time. 
-
-After the process runs succesfully, read the last few lines generated by the terminal. You will see final instructions for making rvm run. Once you finish the process, check to see if rvm is running by entering:
-
-~~~ bash
-$ rvm --version
-~~~
-
-If you don't get an error, you're ready for the next step. If you do get an error, and don't feel comfortable troubleshooting on the terminal, this is a good opportunity to reach out to a friend who can help. You can leave me a note on [the issues page](https://github.com/elotroalex/ed/issues), for example. I'll try to get to it as soon as my other commitments permit. If you're comfortable troubleshooting on your own, I recommend Jekyll's own [troubleshooting documentation](http://jekyllrb.com/docs/troubleshooting/). Another great strategy for troubleshooting on the terminal is to copy and paste the errors you receive (sans personal information) into your favorite search engine.
-
-The next step is to create a gemset for your jekyll projects. A gemset is a set of gems. If you don't create and use a gemset, every gem you install will be applied system-wide. This is not necessarily a bad thing, but if you will have several projects with several setups, this strategy will serve you well in the long run. To create a gemset:
-
-~~~ bash
-$ rvm gemset create ed
-~~~
-
-To use the gemset you just created:
-
-~~~ bash
-$ rvm gemset use ed
-~~~
-
-N.B. Everytime you open a new tab or window on your terminal you need to declare your gemset using `rvm gemset use ed`, or else it will revert to `(default)`.
-
-Now that rvm and Ruby are set up, we're ready to install our first gem: Bundler. Bundler is a gem that allows you to install many gems at the same time using Gemfiles, which is a simple list of specific gems that lives in your project folder. Once you install it, you will be ready to run the Gemfile I provided in the source files. To install Bundler:
-
-~~~ bash
-$ gem install bundler
-~~~ 
-
-You're very close. Now that Bundler is installed, the final step is to install the right version of Jekyll. To do so run the Gemfile this way (remember you must be inside the `ed` folder for this to work):
-
-~~~ bash
-$ bundle install
-~~~
-
-
-If you don't get any errors, Ed should work at this point. To see if Ed is working properly we will take advantage of Jekyll's built in server. You can build the first version of your site and run the jekyll server at the same time by entering:
-
-~~~ bash
-$ jekyll serve
-~~~
-
-If you are running multiple Ruby environments using bundler, you will need to add `bundle exec` to the command:
-
-~~~ bash
-$ bundle exec jekyll serve
-~~~
-
-Copy the url from your terminal log and paste it into your browser of choice (I recommend Firefox). This url usually looks something like this `http://127.0.0.1:4000/ed`. At this point you should be looking at your very own working version of Ed:
-
-![Your very own Ed]({{ site.baseurl }}/assets/screenshot-home.png)
-
----
-
-## Jekyll
-
-Ed is a Jekyll theme. That means you will need some familiarity with Jekyll to take advantage of its full potential. While running a Jekyll site is a bit more involved than Wordpress and other similar tools, the payoff in the long term is worth the effort to learn it. If you are new to Jekyll, I recommend you take a look at ["How (and Why) to Generate a Static Website Using Jekyll"](http://chronicle.com/blogs/profhacker/jekyll1/60913) at ProfHacker, and the excellent [Jekyll documentation](http://jekyllrb.com/) to start getting a sense of how it works. 
-
-Once you have gone through these tutorials, you can get started using Ed by replacing the sample texts included in in the `_texts` folder in Ed with your own edited texts. Remember to always and only edit files in Ed using [a plain text editor](https://en.wikipedia.org/wiki/Text_editor), and *not* a word processor. I'm composing this file using a plain text editor called [Sublime Text](http://www.sublimetext.com/).  
-
-An easy way to make new texts is to copy an existing text, replace the content and rename the file. Remember to always use the jekyll convention for naming files: `your-title.md`. You should also make sure that all your texts have the YAML front matter (the information at the top of the file). YAML stands for "YAML Ain't Markup Language"---no disrespect to XML---and it's the main way that Jekyll handles named data. Here's an example of YAML front matter:
-
+撰写的blog文章在`_texts` 文件夹里，记住每篇文章命名规则是  `your-title.md` 。每篇文章的`YAML`顶部信息确保遵守如下规则：
 ~~~ yaml
 ---
 layout: poem
 title: "Cahier d'un retour au pays natal"
-author: Aimé Césaire
+author: Cloudhan
 ---
 ~~~
+---
 
-Besides replacing content and creating new texts, you will probably  want to edit the `_config.yml` file to replace the boilerplate information we provided with your own personalized information in the relevant categories. Avoid replacing the information in categories that are not clear to you. Make sure to use proper YAML formatting when writing in the `_config.yml` file. Here's [a good reference source](http://docs.ansible.com/ansible/YAMLSyntax.html) in case you have doubts.
+## kramdown 语法
+
+除了使用`markdown`原生的语法，主题使用`kramdown`拓展语法，主要就是对表格的支持，还包括脚注，词汇定义，缩写, 图片和视频等。可以参考[简书：让你的Markdown用起来得心应手](https://www.jianshu.com/p/d7d6da4b7c60)一文。
 
 ---
 
-## Markdown and kramdown
+## 文章版式
 
-Ed is designed for scholars and amateur editors who want to produce either a clean reading edition or a scholarly annotated edition of a text. The main language we use to write in the Jekyll environment is called Markdown. To learn more about the Markdown family, see Dennis Tenen and Grant Wythoff's "[Sustainable Authorship in Plain Text using Pandoc and Markdown](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)." 
+`Ed`主题提供了三种不同的版式:`诗歌：poem`、`故事:narrative`和`戏剧：drama`。文章顶部的`YAML`信息`layout: page`定义了该布局。布局模板文件在`_layouts`文件夹中可以找到。使用这些布局将允许您根据您不同的写作需求调整样式，一些特殊指令是需要了解的。
 
-Our version of Jekyll uses a special Markdown processor called kramdown. The processor can be said to use it's own 'flavor' of Markdown, and sometimes the Markdown syntax will be different than other flavors of Markdown. Kramdown is convenient for scholars because of the way it handles footnotes. You can become familiar with the kramdown syntax in the [kramdown documentation](http://kramdown.gettalong.org/syntax.html). Another way to become familiar is to examine the sample text source files we provided. 
 
----
-
-## Genres
-
-Ed offers three different layouts: poem, narrative and drama. The genre is indicated in the YAML front matter on your texts. The templates that govern how these genres are displayed can be found in the `_layouts` folder. Using these layouts will allow you to tweak the stylesheets according to your different needs. Out of the box, Ed contains some special instructions for poetry in its stylesheets that allow you to deal with some of the peculiarities of poetry layouts.
-
-To indicate lines in poetry we use the line syntax from Markdown:
+诗歌中常用的行开始标记语法：
 
 ~~~ markdown
 - Hold fast to dreams
@@ -168,7 +80,7 @@ To indicate lines in poetry we use the line syntax from Markdown:
 - Frozen with snow.
 ~~~
 
-To indent specific lines we take advantage of a feature in kramdown that allows us to indicate classes for a line. This approach still allows the line to be readable while editing. 
+行缩进的语法：
 
 ~~~ markdown
 - {:.indent-3} But O heart! heart! heart!
@@ -177,17 +89,15 @@ To indent specific lines we take advantage of a feature in kramdown that allows 
 - {:.indent-6} Fallen cold and dead.
 ~~~
 
-The `-` at the beginning of each line indicates that these are lines. The `{:.indent-3}` is what we need to in order to indicate the indent value for that line. Values can range from 1-10. You can expand the range or adjust the values in the CSS stylesheet in the `public` folder.
+这里 `-` 表示一行的开始;`{:.indent-3}` 表示缩进值，值得范围可以从1-10;`*` 包围则是使用斜体字，如： 
 
-The example from Raisin in the Sun shows us that we don't need much special markup for theater as long as we use CAPITAL LETTERS for speakers. Italics for directions are easy enough. Just use `*` around the words you want to italicize. 
-
-*Narrative of the Life of Frederick Douglass* shows us an example of narrative that includes footnotes and quoted poetry. See the sections below for how to accomplish these different effects. 
+*这里是斜体字* 
 
 --- 
 
-## Footnotes
+## 脚注的使用
 
-Footnotes are the bread and butter of scholarship. Kramdown makes footnotes a fairly simple affair:
+脚注的语法很简洁：行文中插入`[^fn2]`即可，注解处使用 `[^fn2]:XXX` 即可，可以实现相互跳转。
 
 
 ~~~ 
@@ -199,18 +109,19 @@ Footnotes are the bread and butter of scholarship. Kramdown makes footnotes a fa
 [^fn2]: The bugle is a small trumpet implicated in the military industrial complex.
 ~~~
 
-These footnotes can be placed anywhere, but they will always be generated at the bottom of the document. To have a multi-paragraph footnote you need to start the footnote text on the next line after the footnote anchor and indent it:
+多行脚注需要同样保持缩进：
 
 ~~~ 
 [^fn3]:
 	Ugh pinterest fixie cronut pitchfork beard. Literally deep 
 	cold-pressed distillery pabst austin. 
 
-	Typewriter 90's roof party poutine, kickstarter raw 
+	这是第二行注解：Typewriter 90's roof party poutine, kickstarter raw 
 	denim pabst readymade biodiesel umami chicharrones XOXO. 
 ~~~
 
-The footnotes system provided by kramdown does have one limitation: It generates the numeration for you automatically, and it only allows you to have one set of footnotes for a text. In some cases we have to separate the author's footnotes from our own, in others we want to represent the author's own footnote style. In these cases we have to use HTML. Here's the example from *Narrative of the Life*:
+文章中某些标记并不一定使用数字，例如只使用一个`*` 符号，脚注尾部使用&#x21a9;&#xfe0e;返回标记处,
+`HTML`可以提供方法：
 
 ~~~ html
 ... At this time, Anna,<sup><a href="#fn2" id="ref2">\*</a></sup> my intended wife, came on;
@@ -220,13 +131,11 @@ The footnotes system provided by kramdown does have one limitation: It generates
 <sup id="fn2">*</sup> She was free. [&#x21a9;&#xfe0e;](#ref2)
 ~~~
 
-Notice the double HTML Entity (hex), `&#x21a9;&#xfe0e;`, used at the end of the footnote to return us to the top. The first hex is the &#x21a9;&#xfe0e; symbol proper. The second assigns the proper variant glyph. This is a necessary hack while we wait for Apple devices to stop turning everything into unseemly emojis.
-
 ---
 
-## Blockquotes
+## 块级引用
 
-*Narrative of the Life* also includes several blockquotes. You can also find another example of blockquote use in the footnote of "O Captain! My Captain!" Simple blockquotes are simple enough in kramdown:
+引用在`kramdown`的实现非常简单,其中的文字是引用内容。
 
 ~~~ 
 > This is to certify that I, the undersigned, have given the bearer, my servant, full liberty to go to Baltimore, and spend the Easter holidays.
@@ -235,9 +144,7 @@ Notice the double HTML Entity (hex), `&#x21a9;&#xfe0e;`, used at the end of the 
 > WILLIAM HAMILTON,
 ~~~
 
-To use a line break in block elements add two spaces after the end of the line where you want the break. You can't see them after `&c., 1835.` but they are there.
-
-Things get a bit complicated when we want to use poetry inside the block or when the block is included in another block element, like a footnote. Here's the last two stanzas from "A Parody" in *Narrative of the Life*, which shows an example of a blockquote of poetry:
+设想在一个`故事:narrative`的版式中，块引用`诗歌：poem`，语法是怎样的呢？
 
 ~~~
 ...
@@ -255,25 +162,22 @@ Things get a bit complicated when we want to use poetry inside the block or when
 {:.poetry}
 ~~~
 
-The `{:.poetry}` tag at the end tells the processor to think of the lines above it as poetry. The `{:.poetry}` tag is an example of kramdown class assignments for block-elements. Because this segment of poetry exists in the 'narrative' layout, and because it is part of a blockquote, we need to signal to the processor to process poetry this way, so that the right class is invoked in the stylesheet. Notice also the `^` separating the stanzas. This bit of kramdown syntax helps us separate the stanzas while staying within the blockquote. The good news is this is the most complex kramdown syntax layout you will encounter in Ed.
-
-
-## Pages
-
-Your editions are treated as [collections](https://jekyllrb.com/docs/collections/) in Ed. Other web pages in your site exist outside the `_texts` folder. The homepage, for example, is constructed from the `index.html` file found on the root folder of your Ed project. 
-
-You will notice that the homepage in particular has a `.html` file ending instead of a `.md` ending. All template files in Jekyll are HTML, and the index behaves as a template file. Although these files are mostly written in HTML, notice that they still contain YAML front matter and liquid tags. To edit the homepage replace the content on the file shipped with Ed, making sure that your changes to `index.html` are written in valid HTML. The same goes for the template files in the `_layouts` folder.
-
-Ed also comes with a search page, `search.html`. This page implements [elastic lunr](http://elasticlunr.com/), "a lightweight full-text search engine in Javascript for browser search and offline search." This simple search page can be useful if you have large collections of texts. If you don't, and don't feel the need, go ahead and delete it along with the `public/js` folder.
-
-Besides the homepage and the search page, Ed ships with an About page, `about.md` and a documentation page, `documentation.md`, i.e. this page. As you can see, these are regular `.md` files. You can replace the contents of each file using normal kramdown syntax. This also applies to any new page you create, which you should remember to save with an `.md` extension. When editing the `bibliography.md` file, be careful not to replace the liquid tag that generates your bibliography, unless you don't want to have a bibliography at all.
+这个`{:.poetry}`标记是告诉程序把上面的`-`行标记作为`诗歌：poem`版式处理，之所以需要声明是因为这段文字本身的版式是`故事:narrative`版式，以便程序正确调用。
 
 ---
 
-## Tables of Content
+## 页面模板
 
-You will find three kinds of Tables of Content in Ed. The first example is in the list of Sample Texts in the Homepage. This list is generated using the [Liquid Templating language](http://liquidmarkup.org/). This is one of the major components of Jekyll, and I recommend you deepen your knowledge of it if you want to modify the logic that automates much of Ed. Here is the code that generates the Sample Texts list on the homepage:
+你已经知道，blog 文章都是放在`_text`文件夹，其他的页面模板（例如：`about`, `index`, `documentation`）则是在根目录下的。
+你会注意到，模板文件有些是以`.html`而不是`.md`结尾。`Jekyll`中的所有模板文件都是`HTML`。虽然这些文件大多是用`HTML`编写的，但它们仍然包含`YAML`顶部信息和`Liquid`标签。
+不同的地方是：`.html`文件不能使用`markdown`语法和扩展，但可以使用`Liquid`语句，同理`.md`结尾的文件不能含有`Liquid`语句。
 
+---
+
+## 目录表
+
+`Ed`主题里可以建立三种目录表，第一个示例是主页中用`Liquid` 模板语言编写的文章目录， `{%raw%}{% %}{%endraw%}` 是逻辑表达式的写法， `{%raw%}{{ }}{%endraw%}` 只是输出内容，示例中是文章的标题。
+<!--  `raw`-暂时停用标签处理以避免出现语法冲突。--> 
 
 ~~~ html
 <div class="toc">
@@ -291,10 +195,7 @@ You will find three kinds of Tables of Content in Ed. The first example is in th
 </div>
 
 ~~~
-
-As you can see, the liquid tags `{%raw%}{% %}{%endraw%}` and `{%raw%}{{ }}{%endraw%}` are embedded into the HTML. Those with `{%raw%}{% %}{%endraw%}` often use programmatic logic, as is the case here. If you are not already familiar with programming languages, you may need to start elsewhere. I recommend learning Ruby, since this is the language used to build jekyll and jekyll-scholar in the first place (it's also the first programming language I used, so I'm biased). The `{%raw%}{{ }}{%endraw%}` simply pulls data from your project. In the example above it pulls the title from each 'post', i.e. each edited text. As you may have noticed already, we are basically adapting the blogging features of Jekyll to our own ends, what Cuban designer and theorist Ernesto Oroza would call "[technological dissobedience](http://www.ernestooroza.com/)."
-
-The second kind of table of content is exemplified in this documentation. If you open the source file for the documentation, you will notice at the top this snippet:
+第二个示例恰好就是本文件顶部应用的目录语法。这是`kramdown`的方式，`{:.no_toc}`的作用是告诉程序不要把`Contents`作为目录内容，下面的语句是把文中`markdown`标题自动生成目录内容放在`{:toc}`的位置。
 
 ~~~ markdown
 ## Contents
@@ -303,10 +204,7 @@ The second kind of table of content is exemplified in this documentation. If you
 * ToC
 {:toc}
 ~~~
-
-This is the kramdown way. The first tag, `{:.no_toc}` tells the processor not to add `## Contents` to the ToC. The second part creates an empty list and then tells the processor to replace it with a table of contents based on headers in the document. You can use this syntax in any page on the site that uses headers.
-
-The third way is slightly more involved, but very useful for long texts. If we add the table of contents to the YAML front matter of a page, Ed will activate the optional table of content sidebar (`_includes/sidebar-toc.html`) and move the table of contents to a special sidebar for that page. *Narrative of the Life* uses this method for its table of content. If you would like to replicate this functionality in your own long texts, make sure to use the same syntax:
+对于多章节的长篇文章，第三种方式更为适合，在`YAML`的顶部信息中写入目录，这种方式的好处是在阅读文章时可以通过侧边栏看到目录大纲，实现方便的章节跳转和返回。
 
 ~~~ yaml
 toc:
@@ -317,135 +215,20 @@ toc:
 - Chapter II
 ~~~
 
-The internal links pointing to the right sections in your document are generated from the title names automatically. In order for the links to work the names on section headings must contain the same words as the section headers. The punctuation and capitalization is irrelevant. If you can figure out how Ed accomplishes this trick, you have graduated from the Ed school of minimal editions.
-
 ---
 
-## Bibliographies
+## 改变主题颜色和布局
 
-If you want to include a small bibliography, and you feel it would be easier to write it out directly, Ed can help you render it with hanging indentation.  To achieve this effect make sure to use the `.bibliography` class in an ordered list. For example:
+如果你不喜欢`Ed`默认的颜色，可以在`default.html`版式中方便的调整和修改。只需要改变`bord`标签的 `class` 属性即可。详细参见:[Lanyon documentation](https://github.com/poole/lanyon#themes).
 
-~~~ markdown
-1. Douglass, Frederick et al. Narrative of the Life of Frederick Douglass: An American Slave. Charlottesville, Va.: University of Virginia Library, 1996. Open WorldCat. Web. 17 Apr. 2016.
-2. Hansberry, Lorraine, and Robert Nemiroff. A Raisin in the Sun. Rep Rei edition. New York: Vintage, 2004. Print.
-{.bibliography}
-~~~
-
-Which should display like this:
-
-1. Douglass, Frederick et al. Narrative of the Life of Frederick Douglass: An American Slave. Charlottesville, Va.: University of Virginia Library, 1996. Open WorldCat. Web. 17 Apr. 2016.
-2. Hansberry, Lorraine, and Robert Nemiroff. A Raisin in the Sun. Rep Rei edition. New York: Vintage, 2004. Print.
-{:.bibliography}
+ - 侧边栏在右侧：`<body class="layout-reverse sidebar-overlay">`
+ - 改变基本主题颜色：`<body class="theme-base-08">`
 
 ---
 
 
-To help us style and generate bibliographies and citations *automatically*, Ed can use the jekyll-scholar gem by [Sylvester Keil](https://github.com/inukshuk/). To learn more about the gem beyond the basic instructions below, make sure to read the documentation on the [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) GitHub page. Keep in mind, though, that installing jekyll-scholar and working with it may be a bit difficult for beginners. 
 
 
-If you can get over the hurdles, jekyll-scholar can save you enormous amounts of time in the long term for your citation and bibliographic work. To begin, you must move the contents of the `jekyll-scholar starter kit` in your `optional` folder into the root folder. This will effectively replace the original `_config.yml` and `Gemfile` files, and add a `_bibliography` folder, and the `bibliography.md` and `Rakefile` files. To enable jekyll-scholar you must re-run `bundle install` again.
 
-If everything goes smoothly, you should be able to start using jekyll-scholar at this point. The first thing you may want to do is provide Jekyll with your own bibliographic information in the form of a `.bib` file to replace the content of the `references.bib` file we've provided in the `_bibliography` folder. 
-
-To make it easy to create your own version of this file and to keep track of your bibliography for your project, in general I recommend you use [Zotero](http://zotero.org/). To export from Zotero in this format select the references you need from within your Zotero library, right click and select `export in...` and choose the BibLaTeX format. Rename your file to `references.bib` and move it into the `_bibliography` folder. You are, of course, free to create your `references.bib` file using any method you prefer as long as it is a BibTeX file.
-
-Because as textual editors we are more likely than not to use citations in footnotes or pages that contain footnotes, and because footnotes will be necessarily generated at the bottom of the page, Ed also needs a separate page for your Bibliography or works cited. This is the role of the `bibliography.md` file. Feel free to edit the sample text, but make sure to leave the following line intact: 
-
-<pre>
-&#123;% bibliography %&#125;
-</pre>
-
-To link your citations to the bibliography page, instead of writing them by hand, you can use the cite function in jekyll-scholar:
-
-<pre>
-&#123;% cite cesaire_discourse_2001 %&#125;
-</pre>
-
-Here's the breakdown:
-
-* `cite` is the jekyllscholar command. 
-* `cesaire_discourse_2001` is the unique ID for Césaire's *Discourse on Colonialism* entry included in the reference.bib file.
-
-Note that our jekyll-scholar starter kit comes ready for MLA style. To use Chicago style or more advanced citation features, refer to the documentation on jekyll-scholar to make the appropriate changes. 
-
-**Publishing your site on Github Pages with jekyll-scholar**
-
-If you install jekyll-scholar, or most other plugins in Jekyll, you will need a workaround to publish your site on Github Pages, which only runs in 'safe mode.' I've provided a slightly modified version of a `Rakefile` originally created by [Robert Rawlins](https://blog.sorryapp.com/blogging-with-jekyll/2014/01/31/using-jekyll-plugins-on-github-pages.html) that will help you accomplish this task. Once you are ready to publish, switch to your `gh-pages` branch and run the following command `rake ed:publish`.
-
----
-
-## Tips and Tricks
-
-- The folding sidebar menu is generated from the `sidebar.html` file in the `_includes` folder. The top menu items are generated automatically from your pages. The bottom menu items are manually written in HTML. This structure can allow you to add external links. If you don't have that many pages, you may choose to do all the links by hand.
-- For more hand-crafted layouts---such as [the title page in *The Narrative of the Life*]({{ site.baseurl }}/texts/narrative/index.html#title-page)---you may choose to work directly with HTML. One of the great advantages of working with the kramdown processor is that we have a lot of flexibility to mix HTML with the kramdown syntax. Note though, that even in the case of the title page, you can achieve these effects using kramdown syntax.
-- Make sure to add horizontal rules, `---`, to separate sections in your texts. This creates a more pleasant layout.
-- You can clean unnecessary folders and files from the original Ed package before publishing your site. This will help you reduce overhead. For example, you can erase this page, the sample texts and the `syntax.css` file (used for styling code).
-- Consider providing tips for your readers on how to make their font bigger or smaller by taking advantage of <kbd>Command</kbd> + <kbd>+</kbd> and <kbd>Command</kbd> + <kbd>-</kbd>. Or returning to the top of the page using <kbd>Command</kbd> + <kbd>Up Arrow</kbd>. Part of the philosophy behind Ed is to avoid duplicating features that are already easily available in most web ecosystems. 
-- If you want to allow annotations on your site, consider providing a `via.hypothes.is` link. Our sample site can be annotated, for example, using the following link: `https://via.hypothes.is/http://elotroalex.github.io/ed/`, which readers can access on the sidebar. To allow annotations on your site you can simply replace our URL with yours. Make sure to visit [hypothes.is](https://hypothes.is/) to learn more.
-- Ed includes RDF and openGraph metadata in the headers that makes it easier for users of Zotero, and other systems to grab bibliographic information for the site and individual texts. Our metadata functionality may not be enough to generate a full proper citation. Consider providing visible citation information in your about page or homepage.
-- Make sure to deepen your knowledge of the building blocks of Ed: Jekyll, YAML and Liquid. A great list of resources can be found in the blog "[Jekyll for Web Designers](http://jameswillweb.github.io/jekyll-for-designers/resources.html)".
-- Our base themes Poole/Lanyon allow for easily customization of the interface. You can, for example, switch the position of the sidebar, change the theme colors and overlay options. To learn more check out the [Lanyon documentation](https://github.com/poole/lanyon#themes), and make sure to try the green, `.theme-base-0b`, it's really nice.
-
----
-
-## Publishing: A UNIX server
-
-Publishing and Ed edition can be done in one of two ways. One way is to host it on a server you rent, own or have access to. Most mortals pay a hosting provider to host their sites. I recommend [Reclaim Hosting](https://reclaimhosting.com/), which is run by scholars for scholars. If you are affiliated with a university, chances are that your institution provides you with a UNIX account and a bit of server space. Since Jekyll generates a full static site for you, that means you can park it there. To do so you need to build the site first. If you have been keeping your eye on your project by using `jekyll serve`, chances are you have a current built site in your project folder labelled `_site`.
-
-If you don't already, you can build one easily by using the following Jekyll command:
-
-~~~ bash
-$ jekyll build
-~~~
-
-Or, again, if you have multiple environments:
-
-~~~ bash
-$ bundle exec jekyll serve
-~~~
-
-Using an FTP client like [Filezilla](https://filezilla-project.org/), or [SSH on your terminal](https://www.siteground.com/tutorials/ssh/), you need to push the contents of the `_site` folder to the folder on your server where you would like your project to exist. Depending on your host provider, you may be able to receive help from the sys admins with this step.
-
-Please refer to the [note below on base urls](#a-note-on-your-base-url) to make sure your new links work on your new site.
-
-## Publishing: GitHub pages
-
-The second option is to publish your site for free on GitHub Pages. 
-Whether you decide to publish on GitHub pages or not, we recommend that you still use git and GitHub to version your edition and make the data available via another channel other than your webpage. This is one of the great advantages of using our system, increasing the chances of survival of your work and opening new audiences for it.
-
-If you do decide to use the GitHub pages option, please make sure to read the [note below on base urls](#a-note-on-your-base-url).
-
-To publish on GitHub pages, you must have a copy of the repository in GitHub. That means you also need an account there. Once you've created the repository that you will use, you must link your local repository to the one on GitHub. Notice that because you cloned the original source files from my repository, it will be linked to my repository (to which you don't have writing privileges) until you do this step. Instructions for changing the remote URL can be found [here](https://help.github.com/articles/changing-a-remote-s-url/).
-
-You also need to create a different git branch called `gh-pages` within your local repository for your site. This is the branch that will get published by GitHub. To create and use that branch use the following command:
-
-~~~ bash
-$ git checkout -b gh-pages
-~~~
-
-Once you are using that branch, you are ready to publish your site. To do so use simply push the gh-pages branch to github:
-
-~~~ bash
-$ git push origin gh-pages
-~~~ 
-
-You can now access your site using an address that looks like `http://your-username.github.io/your-project-name`. The sample page for Ed, for example, is hosted at [elotroalex.github.io/ed](http://elotroalex.github.io/ed).
-
-**<span id="a-note-on-your-base-url">A note on your base url</span>**
-
-When you publish on a subfolder—automatic on GitHub pages—many of your links will break unless you indicate the name of your sub-folder in the `baseurl` value in your `_config.html` file. In addition, you need to make sure that your site-wide links (your links to your CSS files, for example) are preceded by the `{{ site.baseurl }}` tag. The base Ed install already uses this system, so you can simply replace the value `/ed` in your `baseurl` to `/your-project-slug`.
-
-If on the other hand you are running your site on a root folder, simply erase `/ed`, but do make sure to leave the single quotes:
-
-~~~ yaml
-baseurl: ''
-~~~
-
----
-
-That should do it. If you have suggestions on how to improve Ed, make sure to leave us a line on [our issues page](https://github.com/elotroalex/ed/issues), or send us a pull request.
-
-Happy editing!
-
-Alex Gil  
-April 2016
+Cloudhan  
+April 2018
