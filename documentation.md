@@ -17,17 +17,17 @@ author: Cloudhan
 ## 基础使用
 
 这是一个`Jekyll`的主题，它很简洁、很漂亮，适合撰写文章。你可以撰写自己的短文、诗歌、甚至小说、自传来发布，我一直有个写作的梦想，之所以喜欢这个主题，大致源于此吧！这里还是得感谢下`Ed`主题的发布者 `Alex Gil` 及其团队给了我们很好的体验。<br>
-要想很好的使用`Ed`，除了熟悉基础的`markdown`语法，还需要会使用`git`,`rvm`, `bundle`, `jekyll 2.7.3`的基础指令和`Liquid`的语法知识。<br>
+要想很好的使用`Ed`，除了熟悉基础的`markdown`语法，还需要会使用`git`,`rvm`, `bundle`, `jekyll 3.7.3`的基础指令和`Liquid`的语法知识。<br>
 `Ed`的运行环境是`ubuntu`，相比`windows`环境运行更加稳定;所以手册里看到的终端命令和相关工具都是在`ubuntu 16.04 LTS`的环境中运行的。
 
 
-如果你迫不及待已经想撰写Blog了，打开`blog`文件夹，右键选择`在终端打开`，或者`Ctrl+Alt+T` 打开终端：
+如果你迫不及待已经想撰写文章了，打开`blog`文件夹，右键选择`在终端打开`，或者`Ctrl+Alt+T` 打开终端（确保在blog目录下）：
 ~~~ bash
 $ cd blog
 $ rvm use 2.4.1@jekyll
 $ subl .
 ~~~
-写好Blog先要在本地启动`Jekyll`服务预览下，确保没有错误发生，本地`Firefox`浏览器地址为`127.0.0.1:4000`
+发布写好的文章前，最好先在本地启动`Jekyll`服务预览内容和格式，确保没有错误发生，本地`Firefox`浏览器地址为`127.0.0.1:4000`
 ~~~ bash
 $ jekyll serve
 ~~~
@@ -226,9 +226,98 @@ toc:
 
 ---
 
+## 引用参考文献
+
+为了帮助我们的自动生成书目和引文，`Ed`可以使用Sylvester Keil的`jekyll-scholar` 插件。这需要了解更多关于gem的基本指令，请务必阅读[jekyll-scholar](https://github.com/inukshuk/jekyll-scholar) Github使用文档。
+
+`jekyll-scholar`很棒，可以为你的书目编撰工作节省大量的时间，实现也并不复杂：
+
+第一步，必须将`jekyll-scholar starter kit`中的`_bibliography`文件夹、`bibliography.md`文件移到`blog`根目录文件夹中。
+不同于脚注，`Ed`需要一个单独的页面来引用您的书目或文献。这就是bibliography.md文件的作用，确保这个文件末尾使用以下行来引用书目文件`_bibliography`文件夹中`references.bib`提供的参考文献。
+
+<pre>
+&#123;% bibliography %&#125;
+</pre>
+
+
+第二步，在`_config.yml`文件中追加以下内容：
+
+ ~~~
+ # plugins
+plugins: ['jekyll/scholar']
+
+# Scholar
+scholar:
+  style: modern-language-association
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+  relative: "/ed/bibliography.html"
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+  ~~~
+
+第三步，`Gemfile`文件中追加一行：
+
+  ~~~
+  gem 'jekyll-scholar', '~>5.7.1'
+  ~~~
+
+最后要启用`jekyll-scholar`，必须重新运行`bundle install`：
+
+~~~bash
+  $ rvm use 2.4.1@jekyll
+
+  $ bundle install
+~~~
+对于一些稍复杂的引用`jekyll-scholar`中引用书目文献提供了丰富的过滤函数：
+~~~
+{%raw%}
+{% cite cesaire_discourse_2001 %}
+{%endraw%}
+~~~
+请注意，`jekyll-scholar starter kit`已经准备好了`mla`风格。若要使用 `Chicago`风格或更高级的文献格式，请参阅[jekyll-scholar](https://github.com/inukshuk/jekyll-scholar)的文档以进行适当的更改。
+
+---
+
+## 安全发布站点
+
+如果你在`jekyll`中安装了`jekyll-scholar`或者其他插件，你需要在Github上发布你的站点，将`jekyll-scholar starter kit`的Rakefile文件复制到`blog`根目录下，使用一行命令便可以轻松完成这项任务。确保切换到gh-pages分支并运行以下命令：
+
+~~~bash
+$ rake ed:publish
+~~~
+
+---
+
+## jekyll常用指令
+
+~~~
+$ jekyll build --watch
+$ jekyll clean
+$ jekyll serve --watch
+~~~
+
+---
 
 
 
-
-Cloudhan  
-April 2018
+<a>by Cloudhan</a><br>
+    July 2018

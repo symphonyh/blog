@@ -3,7 +3,7 @@
 # Setup
 title:               Cloudhan.
 tagline:             '希望是美好的也许是世上最好的东西'
-description:         '倘若可以简单的生活: 一抹油彩 半阙诗词 一段代码, 能让周围的世界微起波澜, 就是满意了.'
+description:         '倘若可以简单的生活: 一抹油彩 半阙诗词 一段代码, 能让周围的世界微起波澜, 就是满意了。'
 url:                 'http://symphonyh.github.io'
 baseurl:             ''
 
@@ -39,7 +39,7 @@ kramdown:
   enable_coderay: false
 
 # Custom vars
-version:             0.0.6
+version:             0.0.7
 
 # Exclusions from the final site
 exclude: [optional, vendor]
