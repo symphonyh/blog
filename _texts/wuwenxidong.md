@@ -1,6 +1,6 @@
 ---
 layout: poem
-title: 无问西东台词
+title: 听从你心,无问西东
 author: cloudhan
 source: 
 ---

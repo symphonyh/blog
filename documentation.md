@@ -17,7 +17,7 @@ author: Cloudhan
 ## 基础使用
 
 这是一个`Jekyll`的主题，它很简洁、很漂亮，适合撰写文章。你可以撰写自己的短文、诗歌、甚至小说、自传来发布，我一直有个写作的梦想，之所以喜欢这个主题，大致源于此吧！这里还是得感谢下`Ed`主题的发布者 `Alex Gil` 及其团队给了我们很好的体验。<br>
-要想很好的使用`Ed`，除了熟悉基础的`markdown`语法，还需要会使用`git`,`rvm`, `bundle`, `jekyll 3.7.3`的基础指令和`Liquid`的语法知识。<br>
+要想很好的使用`Ed`，除了熟悉基础的[markdown](https://symphonyh.github.io/cloudblog/2017/01/27/used-markdown/)语法，还需要会使用[git](https://symphonyh.github.io/cloudblog/2017/03/12/git-commline/),[rvm](https://symphonyh.github.io/cloudblog/2017/03/15/nvm-command/), `bundle`, [jekyll 3.7.3](https://www.jekyll.com.cn/)的基础指令和[Liquid](https://symphonyh.github.io/cloudblog/2017/03/04/liquid/) 的语法知识。<br>
 `Ed`的运行环境是`ubuntu`，相比`windows`环境运行更加稳定;所以手册里看到的终端命令和相关工具都是在`ubuntu 16.04 LTS`的环境中运行的。
 
 
@@ -44,7 +44,7 @@ $ git push origin gh-pages
 
 ## 文章格式及命名规范
 
-对于`Jekyll`的文档可以参考 [Jekyll中文网](http://jekyllrb.com.cn/) 或者`安道`的教程。我使用的纯文本编辑工具是`sublime-text3`，我确保它是个神奇的工具，非常方便好用。
+对于`Jekyll`的文档可以参考 [Jekyll中文网](http://jekyllrb.com.cn/) 或者`安道`的教程。我使用的纯文本编辑工具是[sublime-text3](https://symphonyh.github.io/cloudblog/2017/01/20/command/)，我确保它是个神奇的工具，非常方便好用。
 
 撰写的blog文章在`_texts` 文件夹里，记住每篇文章命名规则是  `your-title.md` 。每篇文章的`YAML`顶部信息确保遵守如下规则：
 ~~~ yaml
@@ -170,7 +170,7 @@ author: Cloudhan
 
 你已经知道，blog 文章都是放在`_text`文件夹，其他的页面模板（例如：`about`, `index`, `documentation`）则是在根目录下的。
 你会注意到，模板文件有些是以`.html`而不是`.md`结尾。`Jekyll`中的所有模板文件都是`HTML`。虽然这些文件大多是用`HTML`编写的，但它们仍然包含`YAML`顶部信息和`Liquid`标签。
-不同的地方是：`.html`文件不能使用`markdown`语法和扩展，但可以使用`Liquid`语句，同理`.md`结尾的文件不能含有`Liquid`语句。
+不同的地方是：`.html`文件更方便于定制网页的样式，也可以使用`Liquid`语句,但不能使用`markdown`语法和扩展;`.md`文件不允许出现`HTML`标签，运用`markdown`及扩展，结合`Liquid`语句更适于书写文档。
 
 ---
 
@@ -223,6 +223,22 @@ toc:
 
  - 侧边栏在右侧：`<body class="layout-reverse sidebar-overlay">`
  - 改变基本主题颜色：`<body class="theme-base-08">`
+
+ 另一和方式是：`Ed`在配置文件中提供了`color-scheme:`主题基本颜色的变量，可以在这里定义颜色，其实就是改变`bord`标签的属性值，和上面意思一样相对应的，`bord`的属性设置为：
+ ~~~
+ <body class="theme-base-{{site.color-scheme}}">
+ ~~~
+配置技巧：`class`属性可以设置多项，
+
+~~~
+color-scheme: 0d layout-reverse sidebar-overlay
+~~~
+
+
+主题颜色代码:
+
+![Available theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
+
 
 ---
 

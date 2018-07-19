@@ -13,6 +13,9 @@ author:
   url:               www.cloudhan.me
   email:             hxy@cloudhan.me
 
+  # Color scheme. Options: red, orange, magenta, cyan, blue, brown
+color-scheme: 0d layout-reverse sidebar-overlay
+
 # Permalinks
 
 permalink: pretty

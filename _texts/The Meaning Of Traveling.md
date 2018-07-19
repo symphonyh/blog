@@ -1,6 +1,6 @@
 ---
 layout: poem
-title: 旅行的意义
+title: 享受旅行
 author: 最好金龟换酒
 source: 
 ---
