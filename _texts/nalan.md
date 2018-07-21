@@ -1,6 +1,6 @@
 ---
 layout: poem
-title: "喜欢的几篇纳兰词"
+title: "纳兰词选"
 author: 纳兰容若
 editor: Cloudhan
 rights: 

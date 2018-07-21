@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 如何写文档
+title: 说明文档
 author: Cloudhan
 ---
 
@@ -170,7 +170,7 @@ author: Cloudhan
 
 你已经知道，blog 文章都是放在`_text`文件夹，其他的页面模板（例如：`about`, `index`, `documentation`）则是在根目录下的。
 你会注意到，模板文件有些是以`.html`而不是`.md`结尾。`Jekyll`中的所有模板文件都是`HTML`。虽然这些文件大多是用`HTML`编写的，但它们仍然包含`YAML`顶部信息和`Liquid`标签。
-不同的地方是：`.html`文件更方便于定制网页的样式，也可以使用`Liquid`语句,但不能使用`markdown`语法和扩展;`.md`文件不允许出现`HTML`标签，运用`markdown`及扩展，结合`Liquid`语句更适于书写文档。
+不同的地方是：`.html`文件更方便于定制网页的布局及样式，也可以使用`Liquid`语句,但不能使用`markdown`语法和扩展;`.md`文件要更加丰富和灵活些，除了允许使用`markdown`及扩展外可以同时运用`HTML`标签和`Liquid`语句更适于书写文档。
 
 ---
 
@@ -226,7 +226,7 @@ toc:
 
  另一和方式是：`Ed`在配置文件中提供了`color-scheme:`主题基本颜色的变量，可以在这里定义颜色，其实就是改变`bord`标签的属性值，和上面意思一样相对应的，`bord`的属性设置为：
  ~~~
- <body class="theme-base-{{site.color-scheme}}">
+ <body class="theme-base-{%raw%}{{site.color-scheme}}{%endraw%}">
  ~~~
 配置技巧：`class`属性可以设置多项，
 
@@ -234,6 +234,9 @@ toc:
 color-scheme: 0d layout-reverse sidebar-overlay
 ~~~
 
+~~~
+color-scheme: 0b
+~~~
 
 主题颜色代码:
 

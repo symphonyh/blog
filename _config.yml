@@ -4,7 +4,7 @@
 title:               Cloudhan.
 tagline:             '希望是美好的也许是世上最好的东西'
 description:         '倘若可以简单的生活: 一抹油彩 半阙诗词 一段代码, 能让周围的世界微起波澜, 就是满意了。'
-url:                 'http://symphonyh.github.io'
+url:                 'https://www.cloudhan.me'
 baseurl:             ''
 
 # About/contact
@@ -13,11 +13,14 @@ author:
   url:               www.cloudhan.me
   email:             hxy@cloudhan.me
 
-  # Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme: 0d layout-reverse sidebar-overlay
+# Color scheme. Options: red, orange, Yellow, Gree, cyan, blue,  nmagenta, brown 
+#                         08     09      0a    0b    0c    0d     0e         0f
+#"color-scheme: 0a layout-reverse sidebar-overlay"
+
+color-scheme: 0b
+
 
 # Permalinks
-
 permalink: pretty
 permalink: /:title/
 
