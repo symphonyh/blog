@@ -1,6 +1,6 @@
 ---
 layout: poem
-title: "Sarah'诗意人生"
+title: Sarah'诗意人生
 author: sarah.tree
 editor: Cloudhan
 rights: 
