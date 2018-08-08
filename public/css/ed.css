@@ -33,7 +33,7 @@ body {
 
 html {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
@@ -41,7 +41,7 @@ p,
 ul,
 li,
 small {
-    font-family: Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
+    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
 }
 
 /*p {text-indent: 2em;}*/
