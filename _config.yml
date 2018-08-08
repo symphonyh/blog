@@ -1,7 +1,7 @@
 # Built with Jekyll 3.2.0
 
 # Setup
-title:               Cloudhan.
+title:               Hs.
 tagline:             '希望是美好的也许是世上最好的东西'
 description:         '倘若可以简单的生活: 一抹油彩 半阙诗词 一段代码, 能让周围的世界微起波澜, 就是满意了。'
 url:                 'https://www.cloudhan.me'
@@ -17,7 +17,7 @@ author:
 #                         08     09      0a    0b    0c    0d     0e         0f
 #"color-scheme: 0a layout-reverse sidebar-overlay"
 
-color-scheme: 0b
+color-scheme: 08
 
 
 # Permalinks
