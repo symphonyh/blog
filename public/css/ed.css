@@ -107,6 +107,7 @@ body {
 
 code, pre {
     font-size: 0.95em;
+    font-family: monaco, Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
 }
 
 /* links */
