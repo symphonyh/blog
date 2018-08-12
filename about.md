@@ -1,10 +1,19 @@
 ---
-layout: page
+layout: default
 title: page testing
 ---
 
+[blog字体下载地址：https://pan.baidu.com/s/119-7jFHp1OVRDSMNmV9fNQ](https://pan.baidu.com/s/119-7jFHp1OVRDSMNmV9fNQ)
+
+- monaco
+- PT Serif
+- Georgia           
+- Palatino Linotype
+> `Georgia`, `Palatino Linotype` 系统自带不必安装  
+- 
 
 <!-- <img src="/assets/hxy.jpg" alt="bella-and-me" style="margin: 0"><br> -->
+
 
 <p style="font-family: monaco; font-size: 1.5em;"> adcdefghijklmnopqrstuvwxyz </p>
 
