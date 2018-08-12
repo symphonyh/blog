@@ -12,7 +12,7 @@ container content
  */
 
 @font-face {
-    font-family: 'monaco';
+    font-family: 'monaco1';
     src: url('./font/monaco-webfont.eot'); /* IE9 Compat Modes */
     src: url('./font/monaco-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
              url('./font/monaco-webfont.woff') format('woff'), /* Modern Browsers */
