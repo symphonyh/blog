@@ -10,11 +10,12 @@ title: Page Testing
 - Georgia           
 - Palatino Linotype
 
-> `Georgia`, `Palatino Linotype` 系统自带不必安装  
+> `Georgia`, `Palatino Linotype` 系统自带不必安装; 
 
-
+<br>
 <!-- <img src="/assets/hxy.jpg" alt="bella-and-me" style="margin: 0"><br> -->
 示例:
+
 ---
 <p style="font-family: monaco; font-size: 1.5em;"> adcdefghijklmnopqrstuvwxyz </p>
 
