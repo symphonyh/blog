@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: page testing
 ---
 
@@ -9,8 +9,9 @@ title: page testing
 - PT Serif
 - Georgia           
 - Palatino Linotype
+
 > `Georgia`, `Palatino Linotype` 系统自带不必安装  
-- 
+
 
 <!-- <img src="/assets/hxy.jpg" alt="bella-and-me" style="margin: 0"><br> -->
 
