@@ -70,21 +70,21 @@ title: Page Testing
 </ul>
 
 <br>
-&sect;&nbsp;code tag示例：
+&sect;&nbsp;code tag 示例：
 
 <code>
   adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事
 </code>
 
 <br>
-&sect;&nbsp;pre tag示例：
+&sect;&nbsp;pre tag 示例：
 
 <pre>
   adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事
 </pre>  
 
 <br>
-&sect;&nbsp;table, tr, th tag示例：
+&sect;&nbsp;table, tr, th tag 示例：
 
 <table>
       <tr>
@@ -128,3 +128,10 @@ title: Page Testing
 |       **User's Google Group**: | http://groups.google.com/group/fat-free-crm-users |
 |  **Developer's Google Group**: | http://groups.google.com/group/fat-free-crm-dev |
 |               **IRC Channel**: | [#fatfreecrm](http://webchat.freenode.net/) on irc.freenode.net |
+
+
+&sect;&nbsp;img tag 示例：
+
+ <img src="/assets/bella.jpg" alt="Het meisje met de parel" style="margin:0"> 
+
+ ![sarah tree](/assets/bella.jpg "Het meisje met de parel, 人生的最大幸福莫过于四件事")
