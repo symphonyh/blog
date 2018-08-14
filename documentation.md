@@ -17,7 +17,7 @@ author: Cloudhan
 ## 基础使用
 
 这是一个`Jekyll`的主题，它很简洁、很漂亮，适合撰写文章。你可以撰写自己的短文、诗歌、甚至小说、自传来发布，我一直有个写作的梦想，之所以喜欢这个主题，大致源于此吧！这里还是得感谢下`Ed`主题的发布者 `Alex Gil` 及其团队给了我们很好的体验。<br>
-要想很好的使用`Ed`，除了熟悉基础的[markdown](https://symphonyh.github.io/cloudblog/2017/01/27/used-markdown/)语法，还需要会使用[git](https://symphonyh.github.io/cloudblog/2017/03/12/git-commline/),[rvm](https://symphonyh.github.io/cloudblog/2017/03/15/nvm-command/), `bundle`, [jekyll 3.7.3](https://www.jekyll.com.cn/)的基础指令和[Liquid](https://symphonyh.github.io/cloudblog/2017/03/04/liquid/) 的语法知识。<br>
+要想很好的使用`Ed`，除了熟悉基础的[markdown](https://symphonyh.github.io/cloudblog/2017/01/27/used-markdown/)语法，还需要会使用[git](https://symphonyh.github.io/cloudblog/2017/03/12/git-commline/),[rvm](https://symphonyh.github.io/cloudblog/2017/01/20/rvm/), `bundle`, [jekyll 3.7.3](https://www.jekyll.com.cn/)的基础指令和[Liquid](https://symphonyh.github.io/cloudblog/2017/03/04/liquid/) 的语法知识。<br>
 `Ed`的运行环境是`ubuntu`，相比`windows`环境运行更加稳定;所以手册里看到的终端命令和相关工具都是在`ubuntu 16.04 LTS`的环境中运行的。
 
 
@@ -224,7 +224,7 @@ toc:
  - 侧边栏在右侧：`<body class="layout-reverse sidebar-overlay">`
  - 改变基本主题颜色：`<body class="theme-base-08">`
 
- 另一和方式是：`Ed`在配置文件中提供了`color-scheme:`主题基本颜色的变量，可以在这里定义颜色，其实就是改变`bord`标签的属性值，和上面意思一样相对应的，`bord`的属性设置为：
+ 另一方式是：`Ed`在配置文件中提供了`color-scheme:`主题基本颜色的变量，可以在这里定义颜色，其实就是改变`bord`标签的属性值，和上面意思一样相对应的，`bord`的属性设置为：
  ~~~
  <body class="theme-base-{%raw%}{{site.color-scheme}}{%endraw%}">
  ~~~
