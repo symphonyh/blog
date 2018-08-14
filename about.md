@@ -12,13 +12,15 @@ title: Page Testing
 - Georgia           
 - Palatino Linotype
 
-> `Georgia`, `Palatino Linotype` 系统自带不必安装， `monaco` 建议安装。
+> `Georgia`, `Palatino Linotype` 系统自带字体, 不必安装， `monaco` 建议安装。
 
 <br>
 <!-- <img src="/assets/hxy.jpg" alt="bella-and-me" style="margin: 0"><br> -->
-示例：
+
 
 ---
+&sect;&nbsp;h1-h6 示例：
+
 <h1> adcdefghijklmnopqrstuvwxyz 人生的最大幸福</h1>
 
 <h2> adcdefghijklmnopqrstuvwxyz 人生的最大幸福莫过于四件事</h2>
@@ -30,15 +32,99 @@ title: Page Testing
 <h5> adcdefghijklmnopqrstuvwxyz </h5>
 
 <h6> adcdefghijklmnopqrstuvwxyz </h6>
+<br>
+&sect;&nbsp;p tag webfont 示例：
 
-<p style="font-family: monaco; font-size: 1.2em;"> adcdefghijklmnopqrstuvwxyz </p>
-
-<p>人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+<p style="font-family: web_monaco; font-size: 1.2em;"> adcdefghijklmnopqrstuvwxyz </p>
 
 <p style="font-size: 1em;">人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+<br>
+&sect;&nbsp;a tag 示例：:
 
-<small>adcdefghijklmnopqrstuvwxyz , by 林语堂 </small>
+<a>adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事 </a>
+
+<a style="font-family: 'Palatino Linotype';" href="#">adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事 </a>
+
+<br>
+&sect;&nbsp;small tag 示例：
+
+<small>adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事 </small>
+
+<br>
+&sect;&nbsp;blockquote tag 示例：
 
 > adcdefghijklmnopqrstuvwxyz ,人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。
 
+<br>
+&sect;&nbsp;ul,li tag 示例：
 
+<ul>
+  <li>Hold fast to dreams</li>
+  <li>For if dreams die</li>
+  <li>人生的最大幸福莫过于四件事</li>
+  <li>That cannot fly.</li>
+  <li>Hold fast to dreams</li>
+  <li>For when dreams go</li>
+  <li>Life is a barren field</li>
+  <li>睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</li>
+</ul>
+
+<br>
+&sect;&nbsp;code tag示例：
+
+<code>
+  adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事
+</code>
+
+<br>
+&sect;&nbsp;pre tag示例：
+
+<pre>
+  adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事
+</pre>  
+
+<br>
+&sect;&nbsp;table, tr, th tag示例：
+
+<table>
+      <tr>
+         <th>City</th>
+         <th>Date</th>
+         <th>Temperature</th>
+         <th>Altitude</th>
+         <th>Population</th>
+         <th>Diner Rating</th>
+      </tr>
+      <tr>
+         <td>Walla Walla, WA</td>
+         <td>June 15th</td>
+         <td>75</td>
+         <td>1,204 ft</td>
+         <td>29,686</td>
+         <td>4/5</td>
+      </tr>
+      <tr>
+         <td>Magic City, ID</td>
+         <td>June 25th</td>
+         <td>74</td>
+         <td>5,312 ft</td>
+         <td>50</td>
+         <td>3/5</td>
+      </tr>
+   </table>
+
+
+<br>
+
+|-----------------------------------:|:--------------------------|
+|                 **Home Page**: | http://www.fatfreecrm.com |
+|                    **Guides**: | http://guides.fatfreecrm.com |
+|               **Online Demo**: | http://demo.fatfreecrm.com |
+|       **Github Project Page**: | http://github.com/fatfreecrm/fat_free_crm |
+| **Feature Requests and Bugs**: | http://support.fatfreecrm.com/ |
+|                  **RDoc API**: | http://api.fatfreecrm.com |
+|                  **Ruby gem**: | https://rubygems.org/gems/fat_free_crm |
+|    **人生的最大幸福莫过于四件事**: | 人生的最大幸福莫过于四件事 |
+|       **User's Google Group**: | http://groups.google.com/group/fat-free-crm-users |
+|  **Developer's Google Group**: | http://groups.google.com/group/fat-free-crm-dev |
+|               **IRC Channel**: | [#fatfreecrm](http://webchat.freenode.net/) on irc.freenode.net |
