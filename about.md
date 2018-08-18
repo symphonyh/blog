@@ -19,7 +19,7 @@ title: Page Testing
 
 
 ---
-&sect;&nbsp;h1-h6 示例：
+&sect;&nbsp; **h1-h6 示例:**
 
 <h1> adcdefghijklmnopqrstuvwxyz 人生的最大幸福</h1>
 
@@ -33,30 +33,30 @@ title: Page Testing
 
 <h6> adcdefghijklmnopqrstuvwxyz </h6>
 <br>
-&sect;&nbsp;p tag webfont 示例：
+&sect;&nbsp; **p tag webfont 示例：**
 
 <p style="font-family: web_monaco; font-size: 1.2em;"> adcdefghijklmnopqrstuvwxyz </p>
 
 <p style="font-size: 1em;">人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
 <br>
-&sect;&nbsp;a tag 示例：:
+&sect;&nbsp; **a tag 示例：**
 
 <a>adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事 </a>
 
 <a style="font-family: 'Palatino Linotype';" href="#">adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事 </a>
 
 <br>
-&sect;&nbsp;small tag 示例：
+&sect;&nbsp; **small tag 示例：**
 
 <small>adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事 </small>
 
 <br>
-&sect;&nbsp;blockquote tag 示例：
+&sect;&nbsp; **blockquote tag 示例：**
 
 > adcdefghijklmnopqrstuvwxyz ,人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。
 
 <br>
-&sect;&nbsp;ul,li tag 示例：
+&sect;&nbsp; **ul,li tag 示例：**
 
 <ul>
   <li>Hold fast to dreams</li>
@@ -70,21 +70,21 @@ title: Page Testing
 </ul>
 
 <br>
-&sect;&nbsp;code tag 示例：
+&sect;&nbsp; **code tag 示例：**
 
 <code>
   adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事
 </code>
 
 <br>
-&sect;&nbsp;pre tag 示例：
+&sect;&nbsp; **pre tag 示例：**
 
 <pre>
   adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事
 </pre>  
 
 <br>
-&sect;&nbsp;table, tr, th tag 示例：
+&sect;&nbsp; **table, tr, th tag 示例：**
 
 <table>
       <tr>
@@ -130,8 +130,10 @@ title: Page Testing
 |               **IRC Channel**: | [#fatfreecrm](http://webchat.freenode.net/) on irc.freenode.net |
 
 
-&sect;&nbsp;img tag 示例：
+&sect;&nbsp; **img tag 示例：**
 
  <img src="/assets/bella.jpg" alt="Het meisje met de parel" style="margin:0"> 
+
+ &sect;&nbsp; **markdown img**
 
  ![sarah tree](/assets/bella.jpg "Het meisje met de parel, 人生的最大幸福莫过于四件事")
