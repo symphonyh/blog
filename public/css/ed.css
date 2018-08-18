@@ -462,8 +462,7 @@ h3.masthead-title {
 }
 
 .sidebar-item {
-    padding: 1rem;
- font-family: "Palatino Linotype", Helvetica, Arial, "Microsoft YaHei", sans-serif;   
+    padding: 1rem; 
 }
 
 .sidebar-item p:last-child {
