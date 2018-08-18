@@ -41,7 +41,7 @@ p,
 ul,
 li,
 small {
-    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
+    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, KaiTi_GB2312, "Microsoft YaHei",  sans-serif;
 }
 
 /*p {text-indent: 2em;}*/
@@ -107,7 +107,7 @@ body {
 
 code, pre {
     font-size: 0.95em;
-    font-family: monaco, Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
+    font-family: monaco, Helvetica, Tahoma, Arial, "Microsoft YaHei",  sans-serif;
 }
 
 /* links */
@@ -147,7 +147,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Helvetica, Tahoma, Arial, "YaHei Consolas Hybrid", "Microsoft YaHei", "微软雅黑", sans-serif;
+    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, KaiTi_GB2312, "Microsoft YaHei", sans-serif;
     margin-bottom: .5rem;
     font-weight: 400;
     /*font-size: 1.5rem;*/
@@ -358,7 +358,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .masthead-title small {
-    font-family: Helvetica, Tahoma, Arial, "YaHei Consolas Hybrid", "Microsoft YaHei", "微软雅黑", sans-serif;
+    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, "YaHei Consolas Hybrid", "Microsoft YaHei",  sans-serif;
     font-size: 0.75rem;
     font-weight: 400;
     color: #c0c0c0;
@@ -433,7 +433,7 @@ h3.masthead-title {
     width: 14rem;
     visibility: hidden;
     overflow-y: auto;
-    font-family: "PT Sans", Helvetica, Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
+    font-family: "Palatino Linotype", Helvetica, Arial, "Microsoft YaHei", sans-serif;
     font-size: .875rem;
     /* 15px */
     color: rgba(255, 255, 255, .6);
