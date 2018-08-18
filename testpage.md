@@ -12,7 +12,8 @@ title: Page Testing
 - Georgia           
 - Palatino Linotype
 
-> `Georgia`, `Palatino Linotype` 系统自带字体, 不必安装， `monaco` 建议安装。
+> `Georgia`, `Palatino Linotype` 系统自带字体, 不必安装， `monaco` 建议安装;
+> `KaiTi_GB2312` 正在测试楷体字。
 
 <br>
 <!-- <img src="/assets/hxy.jpg" alt="bella-and-me" style="margin: 0"><br> -->
