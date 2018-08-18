@@ -49,7 +49,7 @@ small {
 
 @media (min-width: 38em) {
     html {
-        font-size: 14.5px;
+        font-size: 15.5px;
     }
 }
 
@@ -463,6 +463,7 @@ h3.masthead-title {
 
 .sidebar-item {
     padding: 1rem;
+ font-family: "Palatino Linotype", Helvetica, Arial, "Microsoft YaHei", sans-serif;   
 }
 
 .sidebar-item p:last-child {
