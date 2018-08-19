@@ -33,7 +33,7 @@ body {
 
 html {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size: 14.5px;
+    font-size: 16.8px;
     line-height: 1.5;
 }
 
@@ -49,7 +49,7 @@ small {
 
 @media (min-width: 38em) {
     html {
-        font-size: 16px;
+        font-size: 16.8px;
     }
 }
 
