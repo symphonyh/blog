@@ -463,6 +463,8 @@ h3.masthead-title {
 
 .sidebar-item {
     padding: 1rem; 
+ }
+ > p{
     font-family: "Microsoft YaHei"!important;
 }
 
