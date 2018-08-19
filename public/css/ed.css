@@ -256,6 +256,7 @@ blockquote {
     margin: 0 0 20px 0;
     color: #454545;
     border-left: none;
+    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, STXingkai, KaiTi, "Microsoft YaHei", sans-serif;
     font-style: italic;
 }
 
@@ -464,9 +465,7 @@ h3.masthead-title {
 .sidebar-item {
     padding: 1rem; 
  }
- > p{
-    font-family: "Microsoft YaHei"!important;
-}
+ 
 
 .sidebar-item p:last-child {
     margin-bottom: 0;
