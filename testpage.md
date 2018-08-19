@@ -11,12 +11,14 @@ title: Page Testing
 - PT Serif
 - Georgia           
 - Palatino Linotype
+- KaiTi_GB2312
+- lisu
 
-> `Georgia`, `Palatino Linotype` 系统自带字体, 不必安装， `monaco` 建议安装;
-> `KaiTi_GB2312` 正在测试楷体字。
+> `Georgia`, `Palatino Linotype` 是系统自带字体, 不必安装， `monaco` 建议安装;
+
+> `KaiTi_GB2312` ， `lisu` 正在测试楷体、隶书字体。
 
 <br>
-<!-- <img src="/assets/hxy.jpg" alt="bella-and-me" style="margin: 0"><br> -->
 
 
 ---
