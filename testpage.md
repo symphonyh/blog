@@ -38,15 +38,34 @@ title: Page Testing
 <br>
 &sect;&nbsp; **p tag webfont 示例：**
 
-<p style="font-family: web_monaco; font-size: 1.2em;"> adcdefghijklmnopqrstuvwxyz </p>
+- 1.2em 
 
-<p style="font-size: 1em;">人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+<p style="font-size: 1.2em;"> adcdefghijklmnopqrstuvwxyz 人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+
+- 1em
+
+<p style="font-size: 1em;">adcdefghijklmnopqrstuvwxyz 人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+
+- KaiTi_GB2312
+
+<p style="font-family: KaiTi_GB2312;">人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+
+- KaiTi
+
+<p style="font-family: KaiTi;">人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+
+
+- lisu
+
+<p style="font-family: lisu;">人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+
 <br>
 &sect;&nbsp; **a tag 示例：**
 
 <a>adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事 </a>
 
-<a style="font-family: 'Palatino Linotype';" href="#">adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事 </a>
+
+<a href="#">adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事 </a>
 
 <br>
 &sect;&nbsp; **small tag 示例：**
@@ -57,6 +76,10 @@ title: Page Testing
 &sect;&nbsp; **blockquote tag 示例：**
 
 > adcdefghijklmnopqrstuvwxyz ,人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。
+
+&sect;&nbsp; **abbr tag 示例：**
+
+<abbr> adcdefghijklmnopqrstuvwxyz ,人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</abbr>
 
 <br>
 &sect;&nbsp; **ul,li tag 示例：**
