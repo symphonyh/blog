@@ -41,7 +41,7 @@ p,
 ul,
 li,
 small {
-    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, KaiTi, KaiTi_GB2312, "Microsoft YaHei",  sans-serif;
+    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, KaiTi_GB2312, KaiTi, "Microsoft YaHei",  sans-serif;
 }
 
 /*p {text-indent: 2em;}*/
@@ -147,7 +147,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, KaiTi, KaiTi_GB2312, "Microsoft YaHei", sans-serif;
+    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, KaiTi_GB2312, KaiTi, "Microsoft YaHei", sans-serif;
     margin-bottom: .5rem;
     font-weight: 400;
     /*font-size: 1.5rem;*/

@@ -14,9 +14,9 @@ title: Page Testing
 - KaiTi_GB2312
 - lisu
 
-> `Georgia`, `Palatino Linotype` 是系统自带字体, 不必安装， `monaco` 建议安装;
+> `Georgia`, `Palatino Linotype` `KaiTi`是系统自带字体, 不必安装， `monaco` 建议安装;
 
-> `KaiTi_GB2312` ， `lisu` 正在测试楷体、隶书字体。
+> `KaiTi` `KaiTi_GB2312` `lisu` 正在测试楷体、隶书字体。
 
 <br>
 
@@ -36,9 +36,18 @@ title: Page Testing
 
 <h6> adcdefghijklmnopqrstuvwxyz </h6>
 <br>
+
+&sect;&nbsp; **hr 示例:**
+
+<hr>
+
 &sect;&nbsp; **p tag webfont 示例：**
 
-- 1.2em 
+- 1.4em (h1)
+
+<p style="font-size: 1.4em;"> adcdefghijklmnopqrstuvwxyz 人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+
+- 1.2em (h2)
 
 <p style="font-size: 1.2em;"> adcdefghijklmnopqrstuvwxyz 人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
 
@@ -89,7 +98,7 @@ title: Page Testing
   <li>For if dreams die</li>
   <li>人生的最大幸福莫过于四件事</li>
   <li>That cannot fly.</li>
-  <li>Hold fast to dreams</li>
+  <li>Hold fast to dreams人生的最大幸福莫过于四件事</li>
   <li>For when dreams go</li>
   <li>Life is a barren field</li>
   <li>睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</li>
@@ -158,7 +167,8 @@ title: Page Testing
 
 &sect;&nbsp; **img tag 示例：**
 
- <img src="/assets/bella.jpg" alt="Het meisje met de parel" style="margin:0"> 
+size:400x100
+ <img src="/assets/bella.jpg" alt="Het meisje met de parel" width="400px" height="200px" style="margin:0"> 
 
  &sect;&nbsp; **markdown img**
 
