@@ -16,7 +16,7 @@ title: Page Testing
 
 > `Georgia`, `Palatino Linotype` `KaiTi`是系统自带字体, 不必安装， `monaco` 建议安装;
 
-> `KaiTi` `KaiTi_GB2312` `lisu` 正在测试楷体、隶书字体。
+> `KaiTi` `KaiTi_GB2312` `lisu` 正在用有字库远程调用测试楷体、隶书字体。
 
 <br>
 
