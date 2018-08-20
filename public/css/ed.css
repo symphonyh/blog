@@ -137,7 +137,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial,  KaiTi, KaiTi_GB2312,  "Microsoft YaHei", sans-serif;
+    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, "Microsoft YaHei", sans-serif;
     margin-bottom: .5rem;
     font-weight: 400;
     /*font-size: 1.5rem;*/
@@ -348,7 +348,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .masthead-title small {
-    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, "YaHei Consolas Hybrid", "Microsoft YaHei",  sans-serif;
+    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, "Microsoft YaHei",  sans-serif;
     font-size: 0.7rem;
     font-weight: 400;
     color: #c0c0c0;
