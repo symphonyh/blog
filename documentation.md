@@ -116,7 +116,7 @@ author: Cloudhan
 	Ugh pinterest fixie cronut pitchfork beard. Literally deep 
 	cold-pressed distillery pabst austin. 
 
-	这是第二行注解：Typewriter 90's roof party poutine, kickstarter raw 
+	这是第二行注解：Typewriter 90's roof party poutine, kickstarter  
 	denim pabst readymade biodiesel umami chicharrones XOXO. 
 ~~~
 
