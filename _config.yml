@@ -45,7 +45,7 @@ kramdown:
   enable_coderay: false
 
 # Custom vars
-version:             0.0.7
+version:             0.0.9
 
 # Exclusions from the final site
 exclude: [optional, vendor]
