@@ -37,16 +37,6 @@ html {
     line-height: 1.5;
 }
 
-p,
-ul,
-li,
-small {
-    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial,  KaiTi, KaiTi_GB2312, "Microsoft YaHei",  sans-serif;
-}
-
-/*p {text-indent: 2em;}*/
-
-
 @media (min-width: 38em) {
     html {
         font-size: 16.8px;
@@ -359,7 +349,7 @@ tbody tr:nth-child(odd) th {
 
 .masthead-title small {
     font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, "YaHei Consolas Hybrid", "Microsoft YaHei",  sans-serif;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     font-weight: 400;
     color: #c0c0c0;
     letter-spacing: 0;

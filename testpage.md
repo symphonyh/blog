@@ -16,7 +16,7 @@ title: Page Testing
 
 > `Georgia`, `Palatino Linotype` `KaiTi`是系统自带字体, 不必安装， `monaco` 建议安装;
 
-> `KaiTi` `KaiTi_GB2312` `lisu` 正在用有字库远程调用测试楷体、隶书字体。
+> `王汉宗中楷体` `lisu` 正在用有字库远程调用测试楷体、隶书字体。
 
 <br>
 
@@ -66,7 +66,28 @@ title: Page Testing
 
 - lisu
 
-<p style="font-family: lisu;">人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+<p style="font-family: 'CTLiShuSJ13f750d20b1dd28'!important;">adcdefghijklmnopqrstuvwxyz人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+>注：css远程调用有字库字体服务，需要把展示的文字预先生成汉字库文件。
+
+- p.small
+
+<p class="small">adcdefghijklmnopqrstuvwxyz人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+
+- p.large 
+
+<p class="large">adcdefghijklmnopqrstuvwxyz人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+
+- p.larger 
+
+<p class="larger">adcdefghijklmnopqrstuvwxyz人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+
+- p.centered 
+
+<p class="centered">adcdefghi 和孩子做游戏。</p>
+
+- p.a
+
+<p><a>qrstuvwxyz人生的最大幸福莫过于四件事：</a>睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
 
 <br>
 &sect;&nbsp; **a tag 示例：**
@@ -89,6 +110,8 @@ title: Page Testing
 &sect;&nbsp; **abbr tag 示例：**
 
 <abbr> adcdefghijklmnopqrstuvwxyz ,人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</abbr>
+
+>注：字母自动变为大写。
 
 <br>
 &sect;&nbsp; **ul,li tag 示例：**
@@ -173,3 +196,5 @@ size:400x100
  &sect;&nbsp; **markdown img**
 
  ![sarah tree](/assets/bella.jpg "Het meisje met de parel, 人生的最大幸福莫过于四件事")
+
+
