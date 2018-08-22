@@ -136,8 +136,9 @@ a:focus {
   background-color: #FF6A6A */
 }
 
-p>a:hover,
+p>a, a:hover,
 a:focus {
+	font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, KaiTi, "Microsoft YaHei", sans-serif;
     text-decoration: underline;
     text-decoration: none;
 }
