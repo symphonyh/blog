@@ -95,6 +95,20 @@ body {
     }
 }
 
+p,
+ul,
+ol,
+dl,
+dt,
+dd,
+table,
+tr,
+td{
+    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, KaiTi, "Microsoft YaHei", sans-serif;
+}
+
+
+
 code, pre {
     font-size: 0.85em;
     font-family: monaco, Helvetica, Tahoma, Arial, "Microsoft YaHei",  sans-serif;
@@ -137,7 +151,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, "Microsoft YaHei", sans-serif;
+    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, KaiTi, "Microsoft YaHei", sans-serif;
     margin-bottom: .5rem;
     font-weight: 400;
     /*font-size: 1.5rem;*/
@@ -348,7 +362,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .masthead-title small {
-    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, "Microsoft YaHei",  sans-serif;
+    font-family: "Palatino Linotype", Helvetica, Tahoma, Arial,  "Microsoft YaHei",  sans-serif;
     font-size: 0.7rem;
     font-weight: 400;
     color: #c0c0c0;

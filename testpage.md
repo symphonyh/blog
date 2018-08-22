@@ -69,6 +69,9 @@ title: Page Testing
 <p style="font-family: 'CTLiShuSJ13f750d20b1dd28'!important;">adcdefghijklmnopqrstuvwxyz人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
 >注：css远程调用有字库字体服务，需要把展示的文字预先生成汉字库文件。
 
+
+<p style="font-family: 'lisu'!important;">adcdefghijklmnopqrstuvwxyz人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+
 - p.small
 
 <p class="small">adcdefghijklmnopqrstuvwxyz人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
@@ -142,6 +145,17 @@ title: Page Testing
 </pre>  
 
 <br>
+
+&sect;&nbsp; **.lead tag 示例：**
+
+<p class="lead">adcdefghijklmnopqrstuvwxyz人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+
+<br>
+&sect;&nbsp; **.message tag 示例：**
+
+<p class="message">adcdefghijklmnopqrstuvwxyz人生的最大幸福莫过于四件事：睡自己的床; 吃父母做的饭; 和爱的人说情话; 和孩子做游戏。</p>
+
+
 &sect;&nbsp; **table, tr, th tag 示例：**
 
 <table>
