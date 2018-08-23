@@ -132,19 +132,15 @@ a strong {
 a:hover,
 a:focus {
     text-decoration: underline;
+
   }
 
-a, p>a {
-
-   font-family: "Palatino Linotype", Helvetica, Tahoma, Arial, KaiTi, "Microsoft YaHei", sans-serif;
-}  
-
-/*p>a:hover,
+p>a:hover,
 a:focus {
     text-decoration: underline;
     text-decoration: none;
  }  
-*/
+
 
 
 /* Headings */
