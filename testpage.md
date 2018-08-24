@@ -98,7 +98,8 @@ title: Page Testing
 <a>adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事 </a>
 
 
-<a href="#">adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事 </a>
+<stong><a href="#">adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事 </a></stong>
+>`Ed.` 自动对文字增加`p`标签，所以上一个`a`标签不显示下划线，这里用了`<stong>`标签。
 
 <br>
 &sect;&nbsp; **small tag 示例：**
