@@ -5,7 +5,8 @@ title: Credits
 
 ### [Cloudhan](https://github.com/symphonyh/blog) | Front end Engineer
 
-Susanna teaches Digital Humanities in the Department of Latin American and Iberian Cultures. She earned her Ph.D in Romance Studies at the University of Barcelona in 2012, and completed a M.A. in «Nouvelles technologies appliquées à l’histoire» at the École Nationale des Chartes (Paris). She has taught at the University of Barcelona and she has been a postdoctoral fellow at the Spanish National Research Council (CSIC). Her research explores several aspects of digital humanities, especially, scholarly digital editions, electronic text analysis, intertextuality and text reuse, and digital lexicography. She also works with the intersection of the Iberian Peninsula and Italy in the Middle Ages and the Renaissance, reconstructing cultural and literary networks between the two.
+毕业于北京航天航空大学软件学院，软件工程硕士，日常管理工作之余，还是忍不住喜欢写写代码。
+最好的老师是兴趣，幸运的是这些年一直没有间断过，除了获得小小的满足感，也让内心平静，成长。
 
 
 
