@@ -7,15 +7,17 @@ rights:
 source: 
 publication-date:  2018-09
 toc:
- - Craigie Hill-Cara Dillon
+ - Craigie Hill
 
 ---
 
-## <center><a>Craigie Hill -Cara Dillon</a></center>
+## <center><a>Craigie Hill </a></center>
 
-
+<div class="cloud-tie-wrapper">
+<center>
 <img width = '800' height ='420' src ="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536306096343&di=aa599e1eaaa5409c8e0ee651ef59a303&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20170927%2Ff1f90a1dfa2b4986a707eaa9e0eec2a7.jpeg"/>
-
+</center>
+</div>
 <center>
   <audio id="audio" controls="" preload="none">
     <source id="mp3" src="http://www.170mv.com/kw/other.web.ra01.sycdn.kuwo.cn/resource/n1/128/7/72/353550290.mp3">
