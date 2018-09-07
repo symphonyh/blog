@@ -8,6 +8,7 @@ source:
 publication-date:  2018-08
 toc:
  - 张爱玲
+ - Craigie Hill-Cara Dillon
  - 三毛
 
 ---
@@ -181,8 +182,10 @@ toc:
 
 
 ---
+## <a>Craigie Hill-Cara Dillon</a>
 
-<img width = '750' height ='450' src ="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536306096343&di=aa599e1eaaa5409c8e0ee651ef59a303&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20170927%2Ff1f90a1dfa2b4986a707eaa9e0eec2a7.jpeg"/>
+
+<img width = '800' height ='420' src ="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536306096343&di=aa599e1eaaa5409c8e0ee651ef59a303&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20170927%2Ff1f90a1dfa2b4986a707eaa9e0eec2a7.jpeg"/>
 
 <center>
   <audio id="audio" controls="" preload="none">
@@ -193,7 +196,8 @@ toc:
 <br>
 
 ---
-# <a>Craigie Hill-Cara Dillon</a>
+
+《克雷吉山》歌词翻译：
 
 ~~~
 It being in the springtime
