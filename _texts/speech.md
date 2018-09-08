@@ -25,9 +25,9 @@ toc:
  - 宋美龄美国国会演讲
 
 ---
-## <a>特朗普就职演说</a>
+## <center><a>特朗普就职演说</a></center>
 
-<stong>by Donald Trump</stong>
+<center><stong>by Donald Trump</stong></center>
 
 <br>
 
@@ -97,9 +97,9 @@ toc:
 
 ---
 
-## <a>伊万卡助选演讲</a>
+## <center><a>伊万卡助选演讲</a></center>
 
-<stong>by Ivanka Trump</stong>
+<center>x<stong>by Ivanka Trump</stong></center>
 
 <br>
 
@@ -163,9 +163,9 @@ toc:
 
 ---
 
-## <a>是的 我们做得到</a>
+## <center><a>是的 我们做得到</a></center>
 
-<stong>by Obama</stong>
+<center><stong>by Obama</stong></center>
 
 <br>
 2008年11月4日在总统竞选中获胜的当晚，巴拉克·奥巴马在芝加哥市格兰1特公园里，面对着数十万听众，发表了此篇竞选胜利演讲。
@@ -250,8 +250,8 @@ toc:
 ---
 
 
-## <a>2008奥巴马竞选演讲</a>
-<stong>by Obama</stong>
+## <center><a>2008奥巴马竞选演讲</a></center>
+<center><stong>by Obama</stong></center>
 
 <br>
 
@@ -311,8 +311,8 @@ toc:
 
 ---
 
-## <a>只有站在一起才能更强大</a>
-<stong>by Hillary</stong>
+## <center><a>只有站在一起才能更强大</a></center>
+<center><stong>by Hillary</stong></center>
 
 <br>
 <a>不要让任何人告诉你我们的国家是软弱的。我们不是。不要让任何人告诉你，我们没有成功的条件。我们有。
@@ -635,8 +635,8 @@ toc:
 
 ---
 
-## <a>承认失败痛苦 但为了理想奋斗绝对值得</a>
-<stong>by Hillary</stong>
+## <center><a>承认失败痛苦 但为了理想奋斗绝对值得</a></center>
+<center><stong>by Hillary</stong></center>
 
 <br>
 
@@ -726,8 +726,8 @@ toc:
 
 ---
 
-## <a>葛底斯堡演说</a>
-<stong>by Lincoln</stong>
+## <center><a>葛底斯堡演说</a></center>
+<center><stong>by Lincoln</stong></center>
 
 <br>
 八十七年前，我们的先辈们在这个大陆上给我们带来了一个新的共和国，她受孕于自由的理念，并献身于一切人生来平等的理想。
@@ -739,9 +739,9 @@ toc:
 
 ---
 
-## <a>我有一个梦想</a>
+## <center><a>我有一个梦想</a></center>
 
-<stong>by  Martin Luther King</stong>
+<center><stong>by  Martin Luther King</stong></center>
 
 <br>
 今天，我高兴地同大家一起参加这次将成为我国历史上为争取自由而举行的最伟大的示威集会。
@@ -827,9 +827,9 @@ toc:
 
 ---
 
-## <a>我们将战斗在海滩</a>
+## <center><a>我们将战斗在海滩</a></center>
 
-<stong>by Churchill</stong>
+<center><stong>by Churchill</stong></center>
 
 <br>
 这次战役尽管我们失利，但我们决不投降，决不屈服，我们将战斗到底。
@@ -857,9 +857,9 @@ toc:
 
 ---
 
-## <a>肯尼迪就职演说</a>
+## <center><a>肯尼迪就职演说</a></center>
 
-<stong>by kennedy 1961</stong>
+<center><stong>by kennedy 1961</stong></center>
 
 
 <br>
@@ -920,9 +920,9 @@ toc:
 
 
 
-## <a>克林顿卸任演讲</a>
+## <center><a>克林顿卸任演讲</a></center>
 
-<stong>by Clinton</stong>
+<center><stong>by Clinton</stong></center>
 
 <br>
 
@@ -978,9 +978,9 @@ toc:
 
 ---
 
-## <a>克林顿连任就职演说</a>
+## <center><a>克林顿连任就职演说</a></center>
 
-<stong>by Clinton</stong>
+<center><stong>by Clinton</stong></center>
 
 <br>
 
@@ -1051,9 +1051,9 @@ toc:
 ---
 
 
-## <a>克林顿就职演说</a>
+## <center><a>克林顿就职演说</a></center>
 
-<stong>by Clinton</stong>
+<center><stong>by Clinton</stong></center>
 
 <br>
 
@@ -1112,9 +1112,9 @@ Let us not become weary in doing good, for at the proper time we will reap a har
 ---
 
 
-## <a>哪些人是有罪的</a>
+## <center><a>哪些人是有罪的</a></center>
 
- by 莫言 东亚文学论坛
+<center>by 莫言 东亚文学论坛</center>
  
 <br>
 <a>文学家大多也是爱财富逐名利的，但文学却是批判富人、歌颂穷人的。当然文学中批判的富人是为富不仁、或通过不正当手段致富的富人，文学中歌颂的穷人也是虽然穷但不失人格尊严的穷人。
@@ -1175,9 +1175,9 @@ Let us not become weary in doing good, for at the proper time we will reap a har
 
 ---
 
-## <a>宋美龄美国国会演讲</a>
+## <center><a>宋美龄美国国会演讲</a></center>
 
- by 宋美龄 1943 
+<center>by 宋美龄 1943 </center>
  
 <br>
 
