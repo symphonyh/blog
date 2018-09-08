@@ -21,7 +21,7 @@ toc:
 
 ## <a>勇敢的心</a>
 
-“战斗，你可能会死；逃跑，至少能多活一会儿，年复一年，直到寿终正寝。你们！愿不愿意用这么多苟活的日子去换一个机会，仅有的一个机会！那就是回到战场，告诉敌人，他们也许能夺走我们的生命，但是，他们永远夺不走我们的自由！”
+“战斗，你可能会死；逃跑，至少能多活一会儿，年复一年，直到老死在床上。你们！愿不愿意用这么多苟活的日子去换一个机会，仅有的一个机会！那就是回到战场，告诉敌人，他们也许能夺走我们的生命，但是，他们永远夺不走我们的自由！”
 
 你的心灵是自由的，用尽勇气去追随吧．
 
@@ -48,13 +48,7 @@ toc:
 
 
 <div class="cloud-tie-wrapper">
-<iframe 
-    width="800" 
-    height="450" 
-    src="https://open.iqiyi.com/developer/player_js/coopPlayerIndex.html?vid=d31426c68bf0fdc6e2176cb32632dc9e&tvId=7653521409&accessToken=2.f22860a2479ad60d8da7697274de9346&appKey=3955c3425820435e86d0f4cdfe56f5e7&appId=1368&height=100%&width=100%" 
-    frameborder="0" 
-    allowfullscreen="true">
-</iframe>
+<iframe width="800"  height="420" src="//player.bilibili.com/player.html?aid=29375079&cid=51052219&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 
 <hr>
