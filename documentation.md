@@ -16,7 +16,7 @@ author: Cloudhan
 
 <img src="/assets/11.png" alt=" " width="800px" height="320px"> 
 
-这是`Hs.`主界面，指向的按钮可以打开侧边栏，关闭侧边栏鼠标点击其他的区域任意位置，侧边栏里的选项分别是：
+提示：这是`Hs.`主界面，指向的按钮可以打开侧边栏，关闭侧边栏鼠标点击其他的区域任意位置，侧边栏里的选项分别是：
 
 - Home 主页
 - 作者简介
@@ -26,23 +26,31 @@ author: Cloudhan
 - 幕布链接 （一页纸极简思考、笔记工具）
 - Giuhub页面
 
+---
 <br>
-<img src="/assets/33.png" alt=" " width="800px" height="320px">
+<img src="/assets/33.png" alt=" " width="680px" height="320px" style="margin:0">
 
-这是主要显示页面，`Hs.` 可以选中返回Home主页，文章列表可以选择打开阅读。
+提示：这是主要显示页面，`Hs.` 可以选中返回Home主页，文章列表可以选择打开阅读。
 
+---
 <br>
-<img src="/assets/22.png" alt=" " width="800px" height="320px"> 
 
-对于多章节的大部头文章，可以选中按钮，侧边栏会提供书签目录选择跳转;
+<img src="/assets/22.png" alt=" " width="680px" height="320px" style="margin:0"> 
+
+提示：对于多章节的大部头文章，可以选中按钮，侧边栏会提供书签目录选择跳转;
 
 `Return to Top` 是返回文章开头，这个功能一定会让你觉得贴心;
 
 `Home` 也是返回主页,选`Hs.`还是这里，看你的习惯了。 
 
+---
 <br>
+<img src="/assets/44.png" alt=" " width="680px" height="320px" style="margin:0"> 
 
+提示：如果观看视频，不希望打开弹幕可以使用这个按钮关闭。
 
+---
+<br>
 ## 基础使用
 
 这是一个`Jekyll`的主题，它很简洁、很漂亮，适合撰写文章。你可以撰写自己的短文、诗歌、甚至小说、自传来发布，我一直有个写作的梦想，之所以喜欢这个主题，大致源于此吧！这里还是得感谢下`Ed`主题的发布者 `Alex Gil` 及其团队给了我们很好的体验。<br>
