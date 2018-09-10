@@ -14,7 +14,7 @@ author: Cloudhan
 
 ## 操作界面
 
-<img src="/assets/11.png" alt=" " width="800px" height="320px"> 
+<img src="/assets/11.png" alt=" " width="800px" height="320px"  style="margin:0"> 
 
 提示：这是`Hs.`主界面，指向的按钮可以打开侧边栏，关闭侧边栏鼠标点击其他的区域任意位置，侧边栏里的选项分别是：
 
