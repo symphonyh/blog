@@ -205,9 +205,9 @@ toc:
 今晚，如果你我感同身受，有同样的力量、同样的急迫感、同样的冲动和同样的希望；如果我们都能行动起来，那么我相信，从佛罗里达到俄勒冈，从华盛顿到缅因州，全国人民将会在11月积极行动起来，使得约翰 凯利、约翰爱德华兹分别宣誓就任总统、副总统之职，而国家也将就此走出低谷、重振旗鼓。暗夜即将过去，黎明即将到来。谢谢大家，愿上帝保佑你们。
 
 
-
+<div class="cloud-tie-wrapper">
 <iframe width="800"  height="420"  src="//player.bilibili.com/player.html?aid=10120555&cid=16723055&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-
+</div>
 ---
 
 ## <center><a>是的 我们做得到</a></center>
