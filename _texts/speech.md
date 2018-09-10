@@ -100,7 +100,7 @@ toc:
 
 ## <center><a>伊万卡助选演讲</a></center>
 
-<center>x<stong>by Ivanka Trump</stong></center>
+<center><stong>by Ivanka Trump</stong></center>
 
 <br>
 
