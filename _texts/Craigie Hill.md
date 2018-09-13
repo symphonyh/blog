@@ -1,6 +1,6 @@
 ---
 layout: poem
-title: "感动爱尔兰的歌声..."
+title: "单曲循环..."
 author: Cloudhan
 editor: 
 rights: 
@@ -8,6 +8,7 @@ source:
 publication-date:  2018-09
 toc:
  - Craigie Hill
+ - Bressanone
 
 ---
 
@@ -28,7 +29,8 @@ toc:
 
 ---
 
-《克雷吉山》歌词翻译：
+歌手：Cara Dillon <br>
+歌词翻译：
 
 ~~~
 It being in the springtime
@@ -152,6 +154,82 @@ Now we‘re sailing on the ocean for honour and promotion，
 
 And the bonny boats are sailing,way down by Doorin shore. 
 沿着多里安海岸，美丽的船儿在航行。
+
+~~~
+
+---
+
+## <center><a>Bressanone</a></center>
+
+<div class="cloud-tie-wrapper">
+<center>
+<img width = '800' height ='420' src ="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536840109260&di=e522b09e6ad7d6593d8ca28992ec0867&imgtype=0&src=http%3A%2F%2Fpic002.cnblogs.com%2Fimg%2Fcaosainan%2F200909%2F2009092723234678.jpg"/>
+</center>
+</div>
+<center>
+  <audio id="audio" controls="" preload="none">
+    <source id="mp3" src="http://www.170mv.com/kw/other.web.ny01.sycdn.kuwo.cn/resource/n1/33/43/747048686.mp3">
+  </audio>
+</center>
+
+<br>
+
+歌手：Matthew Lien <br>
+歌词翻译：
+~~~
+Here i stand in Bressanone
+我站在布列瑟农的土地上
+
+With the stars up in the sky
+繁星就闪耀在我的上方
+
+Are they shining over brenner
+那星光是否穿过布雷诺？
+
+And upon the other side
+是否照耀着遥远的他乡？
+
+You would be a sweet surrender
+请你不要那么倔强
+
+I must go the other way
+我要走的是另一个方向
+
+And my train will carry me onward
+列车会载着我驶向前方
+
+Though my heart would surely stay
+但我的心定会停留在这个地方
+
+Wo my heart would surely stay
+哦，我的心定会停留在这个地方
+
+Now the clouds are flying by me
+黑云匆匆穿过我的头顶上
+
+And the moon is the rise
+明月也升起在天空的那一旁
+
+I have left stars behind me
+我将繁星留在我的后方
+
+They were disamondsin your skies
+它们会像钻石闪耀在你的天空上
+
+You would be a sweet surrender
+所以请你不要那么倔强
+
+I must go the other way
+我要走的是另一个方向
+
+And my train will carry me onward
+列车会载着我驶向前方
+
+Though my heart would surely stay
+但我的心定会停留在这个地方
+
+Wo my heart would surely stay
+哦，我的心定会停留在这个地方
 
 ~~~
 
