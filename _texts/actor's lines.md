@@ -502,6 +502,10 @@ tom对那个电影公司老板：”他第一个要求被拒绝以后，从来�
 
 感谢我的身材，即使臃肿，我也能到世界各地去旅游。
 
+<div class="cloud-tie-wrapper">
+<iframe width="630"  height="360" src="//player.bilibili.com/player.html?aid=23870015&cid=39926663&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+
 ---
 
 拿着包子，我忽然明白，原来有些东西，没有，就是没有。<br>
@@ -852,7 +856,9 @@ Miss.Chen:麦兜同窗!<br>
 麦兜:妈妈 不如讲 哈利波特吧...<br>
 麦太:不孝啊你...<br>
 
-
+<div class="cloud-tie-wrapper">
+<iframe width="630"  height="360" src="//player.bilibili.com/player.html?aid=14770400&cid=24074677&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
 ---
 ## <a>集结号</a>
 
