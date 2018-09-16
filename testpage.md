@@ -22,6 +22,39 @@ title: Page Testing
 
 
 ---
+&sect;&nbsp; **符号 示例:**
+
+四叶草符号：
+
+❈　✠　✢　✣　✤　✥　ஐ　❃　
+
+✢&nbsp; adcdefghijklmnopqrstuvwxyz 人生的最大幸福 
+
+✣ adcdefghijklmnopqrstuvwxyz 人生的最大幸福
+
+ஐ adcdefghijklmnopqrstuvwxyz 人生的最大幸福
+
+音符：
+
+`|` ♫ ♩ ♪ ♬ ‖ ♯ § ♭ ♮ ¶ ∮ Ψ ∽ ∴ ∵ ※  
+
+|&nbsp; adcdefghijklmnopqrstuvwxyz 人生的最大幸福
+
+> 这是表格效果，很适合台词和语录的风格。
+
+♪&nbsp; adcdefghijklmnopqrstuvwxyz 人生的最大幸福
+
+‖&nbsp; adcdefghijklmnopqrstuvwxyz 人生的最大幸福
+
+Font Awesome：
+
+<i class="fa fa-angle-right"></i>&nbsp;adcdefghijklmnopqrstuvwxyz 人生的最大幸福
+
+<i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;adcdefghijklmnopqrstuvwxyz 人生的最大幸福
+
+<i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;adcdefghijklmnopqrstuvwxyz 人生的最大幸福
+
+---
 &sect;&nbsp; **h1-h6 示例:**
 
 <h1> adcdefghijklmnopqrstuvwxyz 人生的最大幸福</h1>

@@ -206,7 +206,7 @@ toc:
 
 
 <div class="cloud-tie-wrapper">
-<iframe width="630"  height="360"  src="//player.bilibili.com/player.html?aid=10120555&cid=16723055&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe width="640"  height="360"  src="//player.bilibili.com/player.html?aid=10120555&cid=16723055&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 ---
 
@@ -357,7 +357,7 @@ toc:
 感谢你们。上帝保佑你们。愿上帝保佑美利坚合众国。
 
 <div class="cloud-tie-wrapper">
-<iframe width="630"  height="360" src="//player.bilibili.com/player.html?aid=7070403&cid=11528278&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe width="640"  height="360" src="//player.bilibili.com/player.html?aid=7070403&cid=11528278&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 ---
 
