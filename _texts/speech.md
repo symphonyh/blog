@@ -1637,7 +1637,7 @@ Faust校长，校监委员会成员们，老师、校友、朋友、自豪的家
 ---
 
 
-## <center><a>"互联网+"时代的连接升级</a></center>
+## <center><a>互联网+ 时代的连接升级</a></center>
 
 <center>by 马化腾</center>
  
@@ -1689,6 +1689,12 @@ Faust校长，校监委员会成员们，老师、校友、朋友、自豪的家
 ---
 
 
+
+## <center><a>今天百度更懂你</a></center>
+
+<center>by 李彦宏</center>
+
+
 <div class="cloud-tie-wrapper">
 <center>
 <img width = '640' height ='260' src ="http://5b0988e595225.cdn.sohucs.com/images/20171122/286cfb34c868475a8d9db55a3dc39170.png" style="margin:0">
@@ -1696,10 +1702,6 @@ Faust校长，校监委员会成员们，老师、校友、朋友、自豪的家
 </div>
 
 ---  
-
-## <center><a>今天百度更懂你</a></center>
-
-<center>by 李彦宏</center>
  
 <br>
 
