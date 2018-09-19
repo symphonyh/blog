@@ -116,7 +116,7 @@ toc:
 
 <hr>
 
-## <center><a>兄弟连</a></center>
+# <center><a>兄弟连</a></center>
 
 1、我们是伞兵，伞兵天生就是被包围的！
 
@@ -197,7 +197,7 @@ Remember, Hope is a good thing, maybe the best of things and no good thing ever 
 
 <hr>
 
-## <center><a>无问西东</a></center>
+# <center><a>无问西东</a></center>
 
 1、我在你们这个年纪，有段时间，远离人群，独自思索，我的人生到底应该怎样度过，某日，我偶然去图书馆，听到泰戈尔的演讲，而陪同在泰戈尔身边的人，是当时最出名的学者。（梁思成、林徽因、梁启超、梅贻琦、王国维、徐志摩），这些人站在那里，自信而笃定，那种从容让我十分羡慕。而泰戈尔，正在讲“对自己的真实”有多么重要，那一刻，我从思索生命意义的羞耻感中，释放出来。原来这些卓越的人物，也认为花时间思考这些，谈论这些，是重要的。今天，我把泰戈尔的诗介绍给你们，希望你们在今后的岁月里，不要放弃对生命的思索，对自己的真实。
 
@@ -218,7 +218,7 @@ Remember, Hope is a good thing, maybe the best of things and no good thing ever 
 
 ---
 
-## <center><a>教父</a></center>
+# <center><a>教父</a></center>
 
 1、巨大财富的背后，都隐藏着罪恶。
 
@@ -805,7 +805,7 @@ Miss . Dior<br>
 
 ---
 
-## <center><a>白鹿原</a></center>
+# <center><a>白鹿原</a></center>
 
 1、活着就要记住，人生最痛苦最绝望的那一刻是最难熬的一刻，但不是生命结束的最后一刻；熬过去挣过去就会开始体验呼唤未来的生活，有一种对生活的无限热情和渴望。
 
