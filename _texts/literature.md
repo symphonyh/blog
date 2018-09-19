@@ -621,7 +621,7 @@ toc:
 
 # <center><a>荆棘鸟</a></center>
 
-by 澳大利亚女作家 考琳 麦卡洛
+by Colleen McCullough
 <br>
 
 

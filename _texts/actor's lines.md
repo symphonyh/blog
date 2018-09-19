@@ -185,6 +185,9 @@ Remember, Hope is a good thing, maybe the best of things and no good thing ever 
 
 10、听我说，朋友，希望是件危险的事。希望能叫人发疯
 
+~~~
+Let me tell you something my friend: Hope is a dangerous thing. Hope can drie a man insane.
+~~~
 
 11、到今天我还不知道那两个意大利娘们在唱些什么，其实，我也不想知道。有些东西还是留着不说为妙。我像她们该是在唱一些非常美妙动人的故事，美妙得难以用言语来表达，美妙的让你心痛。告诉你吧，这些声音直插云霄，飞得比任何一个人敢想的梦 还要遥远。就像一些美丽的鸟儿扑扇着翅膀来到我们褐色牢笼，让那些墙壁消失得无影无踪。就在那一刹那，鲨堡监狱的每一个人都感到了自由。
 
