@@ -25,7 +25,7 @@ toc:
 
 <p class="citation"> by {{ page.author }}</p>
 
-## <center><a>勇敢的心</a></center>
+# <center><a>勇敢的心</a></center>
 
 1、<strong> 战斗，你可能会死；逃跑，至少能多活一会儿，年复一年，直到老死在床上。你们！愿不愿意用这么多苟活的日子去换一个机会，仅有的一个机会！那就是回到战场，告诉敌人，他们也许能夺走我们的生命，但是，他们永远夺不走我们的自由！</strong>
 
@@ -59,7 +59,7 @@ toc:
 
 <hr>
 
-## <center><a>一代宗师</a></center>
+# <center><a>一代宗师</a></center>
 
 
 1、我在最好的时候碰到你,是我的运气。可惜我没时间了。想想,说人生无悔,都是赌气的话。人生若无悔,那该多无趣啊。我心里有过你。可我也只能到喜欢为止了。
@@ -158,7 +158,7 @@ toc:
 ---
 
 
-## <center><a>肖申克的救赎</a></center>
+# <center><a>肖申克的救赎</a></center>
 
 1、希望是美好的，也许是最好的东西，而美好的事物永不消逝。
 
@@ -308,7 +308,7 @@ Remember, Hope is a good thing, maybe the best of things and no good thing ever 
 
 ---
 
-## <center><a>无间道</a></center>
+# <center><a>无间道</a></center>
 
 
   
@@ -369,7 +369,7 @@ Remember, Hope is a good thing, maybe the best of things and no good thing ever 
 
 ---
 
-## <center><a>麦兜响当当</a></center>
+# <center><a>麦兜响当当</a></center>
 
 1、这个世界再坏也总是有让人开怀的时候。
 
@@ -778,7 +778,7 @@ Miss . Dior<br>
 <iframe width="640"  height="360" src="//player.bilibili.com/player.html?aid=14770400&cid=24074677&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
 ---
-## <center><a>集结号</a></center>
+# <center><a>集结号</a></center>
 
 <br>
 
@@ -849,7 +849,7 @@ Miss . Dior<br>
 
 ---
 
-## <center><a>四世同堂</a></center>
+# <center><a>四世同堂</a></center>
 
 <br>
 
@@ -1080,7 +1080,7 @@ Miss . Dior<br>
 37、在她面前，他觉得他是荷塘里伏在睡莲的小圆叶上的一个翠绿的嫩蛙。他的周围全是香，美，与温柔！
 
 ---
-## <center><a>等风来</a></center>
+# <center><a>等风来</a></center>
 
 
 1、你知道羽蒙什么意思吗？**羽蒙**[^fn1]是山海经里的一种怪物，它长着人的模样但是却有一对很短的翅膀， 它想飞可是它飞不远，羽蒙住在羽民国里，那里靠着山，它每天都要到山边，想试着用自己的翅膀飞远一 点，在飞远一点，可是它每一次都摔下来，每一次都惨败我知道自己名字的矫情跟做作，可是它就是我， 我每次装模作样的时候，我就是为了让别人能够高看我一眼，当我变成我年轻时候自己瞧不起的那种人的 时候，我需要有人来喊我一声：哎，程羽蒙。
