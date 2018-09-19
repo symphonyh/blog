@@ -18,11 +18,11 @@ toc:
 
 <p class="citation"> by {{ page.author }}</p>
 
-# <a>张爱玲</a>
+# <center><a>张爱玲</a></center>
 
 <br>
 
-❈ 也许是sarah的原因吧，女作家笔尖流出的那些句子，最让我心动的便是张爱玲了...
+也许是sarah的原因吧，女作家笔尖流出的那些句子，最让我心动的便是张爱玲了...
 
 ❈ 笑，全世界便与你同声笑，哭，你便独自哭。 《花凋》
 
@@ -186,7 +186,7 @@ toc:
 
 ---
 <br>
-# <a>三毛</a>
+# <center><a>三毛</a></center>
 
 <br>
 
@@ -391,7 +391,7 @@ toc:
 ✣ 沙漠阿拉伯人形容他们也必喝三道的茶：第一道苦若生命，第二道甜似爱情，第三道淡如微风。
 
 ---
-# <a>林徽因</a>
+# <center><a>林徽因</a></center>
 
 <br>
 
@@ -480,7 +480,7 @@ toc:
 
 ---
 
-# <a>六六</a>
+# <center><a>六六</a></center>
 
 <br>
 
@@ -619,7 +619,7 @@ toc:
 ---
 
 
-# <a>荆棘鸟</a>
+# <center><a>荆棘鸟</a></center>
 
 by 澳大利亚女作家 考琳 麦卡洛
 <br>
@@ -805,7 +805,7 @@ There are no ambitions noble enough to justify breaking someone's heart.
 
 ---
 
-# <a>poisonous words</a>
+# <center><a>poisonous words</a></center>
 
 <br>
 
