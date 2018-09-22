@@ -1235,9 +1235,12 @@ There are no ambitions noble enough to justify breaking someone's heart.
 # <center><a>赵本山小品的经典句子</a></center>
 
 <br>
+<div class="cloud-tie-wrapper">
+<iframe width="640"  height="360"  src="//player.bilibili.com/player.html?aid=11654477&cid=19272404&page=19" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
 
-
-
+---
+<br>
 ✡ 我就怕自己出事，自己掌握不住自己的时候，就赶紧回农村，到那一看啥都清楚了。我就是从那小房子出来的，我在那山砍过柴，这就是我同学，长得像我爹似的。在那种环境我就有足够的满足。
 
 ✡ 我一生当中，第一条就是要好好做人。我是一个农民的儿子，是最底层的，能混到今天这一步如果还不珍惜生活、不珍惜周围的朋友和一切，我觉得那就是白活
@@ -1299,10 +1302,6 @@ There are no ambitions noble enough to justify breaking someone's heart.
 ✡ 哎呀 哎呀呀呀呀呀 当年叱诧风云的大忽悠 怎么落到这步田地拉 苍天啊 大地啊 是哪位天使大姐替我出的这口恶气啊!
 
 ✡ 我告诉你们这个问题先杀谁都不好使，就因为我断定这个问题是有毛病的，所以我才没有回答，眼看就要独闯江湖了，你们这个样子怎么让我放心得下。
-
-✡ 坑家败产道路多,没事买个拐,要不就买车,要问他是谁,家住药膳铺,名字李宝库.
-
-✡ 把村委会毁掉,盖起二层小楼,周围修起一丈两尺高的围墙,围墙上边拉上铁丝电网。四角修四个炮楼,用民兵端着扎枪昼夜把守。整两扇大铁门把门一锁,门的后边蹲两只大狼狗。定做一个八斤半的锁头把门砸死。谁也别想进,你也别想出
 
 ✡ 被咱说过的人都不咋地，赵忠祥的《动物世界》也不让播了，倪萍不做主持人还改道了，崔永元也睡不着觉了。
 
