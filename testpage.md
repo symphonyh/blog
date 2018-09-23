@@ -2,6 +2,14 @@
 layout: page
 title: Page Testing
 ---
+<br>
+[经典译制片录音剪辑:http://www.gyhj.org](http://www.gyhj.org/search.php?mod=forum&searchid=2344&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=%BE%AD%B5%E4%D2%EB%D6%C6%C6%AC%C2%BC%D2%F4%BC%F4%BC%AD)
+
+<!--  hxygsh hxyufida721201 -->
+
+
+---
+
 
 要更好的渲染网页的字体，最好安装以下字体文件：
 
@@ -475,3 +483,17 @@ Wo my heart would surely stay
 
 ---
 
+&sect;&nbsp; **百度mp3测试 **
+<br>
+
+*王子复仇记片段*
+
+<center>
+  <audio id="audio" controls="" preload="none">
+    <source id="mp3" src="/assets/wangzi.mp3">
+  </audio>
+</center>
+
+
+
+---
