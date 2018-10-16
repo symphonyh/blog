@@ -106,10 +106,14 @@ toc:
 <iframe width="640"  height="360"  src="//player.bilibili.com/player.html?aid=23986140&cid=40150069&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 
+---
+<br>
 
+<img src="http://n1.itc.cn/img8/wb/smccloud/recom/2015/09/17/144243135285593669.JPEG" alt="Het meisje met de parel" width="280px" height="360px" style="margin:0">
 
->[白说在线收听](http://www.ysts8.com/Yshtml/Ys24031.html)
+>[最喜欢音频之一：《白说》有声书吧在线收听完整版](http://www.ysts8.com/Yshtml/Ys24031.html)
 
+<br>
 ---
 
 # <center><a>人类将会失去这些力量 </a></center>
