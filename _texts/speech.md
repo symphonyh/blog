@@ -106,6 +106,10 @@ toc:
 <iframe width="640"  height="360"  src="//player.bilibili.com/player.html?aid=23986140&cid=40150069&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 </div>
 
+
+
+>[白说在线收听](http://www.ysts8.com/Yshtml/Ys24031.html)
+
 ---
 
 # <center><a>人类将会失去这些力量 </a></center>
