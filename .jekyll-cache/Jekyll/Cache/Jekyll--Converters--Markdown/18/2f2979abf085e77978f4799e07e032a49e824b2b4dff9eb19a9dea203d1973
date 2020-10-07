@@ -1,4 +1,4 @@
-I"�><p><br />
+I"�?<p><br />
 <a href="http://www.gyhj.org/search.php?mod=forum&amp;searchid=2344&amp;orderby=lastpost&amp;ascdesc=desc&amp;searchsubmit=yes&amp;kw=%BE%AD%B5%E4%D2%EB%D6%C6%C6%AC%C2%BC%D2%F4%BC%F4%BC%AD">经典译制片录音剪辑:http://www.gyhj.org</a></p>
 
 <!--  hxygsh hxyufida721201 -->
@@ -19,11 +19,11 @@
 </ul>
 
 <blockquote>
-  <p><code class="highlighter-rouge">Georgia</code>, <code class="highlighter-rouge">Palatino Linotype</code> <code class="highlighter-rouge">KaiTi</code>是系统自带字体, 不必安装， <code class="highlighter-rouge">monaco</code> 建议安装;</p>
+  <p><code class="language-plaintext highlighter-rouge">Georgia</code>, <code class="language-plaintext highlighter-rouge">Palatino Linotype</code> <code class="language-plaintext highlighter-rouge">KaiTi</code>是系统自带字体, 不必安装， <code class="language-plaintext highlighter-rouge">monaco</code> 建议安装;</p>
 </blockquote>
 
 <blockquote>
-  <p><code class="highlighter-rouge">王汉宗中楷体</code> <code class="highlighter-rouge">lisu</code> 正在用有字库远程调用测试楷体、隶书字体。</p>
+  <p><code class="language-plaintext highlighter-rouge">王汉宗中楷体</code> <code class="language-plaintext highlighter-rouge">lisu</code> 正在用有字库远程调用测试楷体、隶书字体。</p>
 </blockquote>
 
 <p><br /></p>
@@ -43,7 +43,7 @@
 
 <p>音符：</p>
 
-<p><code class="highlighter-rouge">|</code> ♫ ♩ ♪ ♬ ‖ ♯ § ♭ ♮ ¶ ∮ Ψ ∽ ∴ ∵ ※</p>
+<p><code class="language-plaintext highlighter-rouge">|</code> ♫ ♩ ♪ ♬ ‖ ♯ § ♭ ♮ ¶ ∮ Ψ ∽ ∴ ∵ ※</p>
 
 <table>
   <tbody>
@@ -169,7 +169,7 @@
 
 <stong><a href="#">adcdefghijklmnopqrstuvwxyz, 人生的最大幸福莫过于四件事 </a></stong>
 <blockquote>
-  <p><code class="highlighter-rouge">Ed.</code> 自动对文字增加<code class="highlighter-rouge">p</code>标签，所以上一个<code class="highlighter-rouge">a</code>标签不显示下划线，这里用了<code class="highlighter-rouge">&lt;stong&gt;</code>标签。</p>
+  <p><code class="language-plaintext highlighter-rouge">Ed.</code> 自动对文字增加<code class="language-plaintext highlighter-rouge">p</code>标签，所以上一个<code class="language-plaintext highlighter-rouge">a</code>标签不显示下划线，这里用了<code class="language-plaintext highlighter-rouge">&lt;stong&gt;</code>标签。</p>
 </blockquote>
 
 <p><br />
@@ -344,7 +344,7 @@
 <p>歌手：Cara Dillon <br />
 歌词翻译：</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>It being in the springtime
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>It being in the springtime
 那是在春天的时节,
 
 and the small birds they were singing，
@@ -487,7 +487,7 @@ And the bonny boats are sailing,way down by Doorin shore.
 
 <p>歌手：Matthew Lien <br />
 歌词翻译：</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Here i stand in Bressanone
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Here i stand in Bressanone
 我站在布列瑟农的土地上
 
 With the stars up in the sky
